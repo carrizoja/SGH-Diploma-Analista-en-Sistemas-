@@ -1,0 +1,1123 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SGH.Servicios</name>
+    </assembly>
+    <members>
+        <member name="T:SGH.BE.Backup">
+            <summary>
+            Clase Entidad de Negocio de Backup
+            </summary>
+        </member>
+        <member name="T:SGH.BE.Bitacora">
+            <summary>
+            Clase de Entidad de Negocio de Bitácora. Esta es una referencia rapida para el que instancia la clase
+            </summary>
+        </member>
+        <member name="T:SGH.BE.BitacoraDatos">
+            <summary>Clase de Entidad de Negocio de bitácora a Datos</summary>
+        </member>
+        <member name="T:SGH.BE.CompositePermisos.Component">
+            <summary>
+            Clase abstracta de la clase padre del Composite
+            </summary>
+        </member>
+        <member name="T:SGH.BE.CompositePermisos.CompositePermisoPadre">
+            <summary>
+            Clase Permiso - Padre del Composite
+            </summary>
+            <seealso cref="T:SGH.BE.CompositePermisos.Component" />
+        </member>
+        <member name="M:SGH.BE.CompositePermisos.CompositePermisoPadre.AgregarComponente(SGH.BE.CompositePermisos.Component)">
+            <summary>
+            Agrega componente.
+            </summary>
+            <param name="_componentElement">The component element.</param>
+        </member>
+        <member name="M:SGH.BE.CompositePermisos.CompositePermisoPadre.CantidadHijos">
+            <summary>
+            Cantidad hijos.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BE.CompositePermisos.CompositePermisoPadre.RemoverComponente(SGH.BE.CompositePermisos.Component)">
+            <summary>
+            Remover componente.
+            </summary>
+            <param name="_componentElement">The component element.</param>
+        </member>
+        <member name="T:SGH.BE.CompositePermisos.Familia">
+            <summary>
+            Clase Familia del Composite
+            </summary>
+            <seealso cref="T:SGH.BE.CompositePermisos.Permiso" />
+        </member>
+        <member name="M:SGH.BE.CompositePermisos.Familia.AgregarComponente(SGH.BE.CompositePermisos.Permiso)">
+            <summary>
+            Agregar componente.
+            </summary>
+            <param name="_componentElement">The component element.</param>
+        </member>
+        <member name="M:SGH.BE.CompositePermisos.Familia.CantidadHijos">
+            <summary>
+            Cantidad hijos.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BE.CompositePermisos.Familia.RemoverComponente(SGH.BE.CompositePermisos.Permiso)">
+            <summary>
+            Remover componente.
+            </summary>
+            <param name="_componentElement">The component element.</param>
+        </member>
+        <member name="T:SGH.BE.CompositePermisos.LeafPermisoHijo">
+            <summary>
+            Clase Leaf del permiso Hijo
+            </summary>
+            <seealso cref="T:SGH.BE.CompositePermisos.Component" />
+        </member>
+        <member name="M:SGH.BE.CompositePermisos.LeafPermisoHijo.AgregarComponente(SGH.BE.CompositePermisos.Component)">
+            <summary>
+            Agregar componente.
+            </summary>
+            <param name="_componentElement">The component element.</param>
+            <exception cref="T:System.Exception">No se puede agregar permiso</exception>
+        </member>
+        <member name="M:SGH.BE.CompositePermisos.LeafPermisoHijo.CantidadHijos">
+            <summary>
+            Cantidad hijos.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BE.CompositePermisos.LeafPermisoHijo.RemoverComponente(SGH.BE.CompositePermisos.Component)">
+            <summary>
+            Remover componente.
+            </summary>
+            <param name="_componentElement">The component element.</param>
+            <exception cref="T:System.Exception">No se puede remover permiso</exception>
+        </member>
+        <member name="T:SGH.BE.CompositePermisos.Patente">
+            <summary>
+            Clase Patente del Composite
+            </summary>
+            <seealso cref="T:SGH.BE.CompositePermisos.Permiso" />
+        </member>
+        <member name="M:SGH.BE.CompositePermisos.Patente.AgregarComponente(SGH.BE.CompositePermisos.Permiso)">
+            <summary>
+            Agrega componente.
+            </summary>
+            <param name="_componentElement">The component element.</param>
+            <exception cref="T:System.Exception">No se puede agregar permiso</exception>
+        </member>
+        <member name="M:SGH.BE.CompositePermisos.Patente.CantidadHijos">
+            <summary>
+            Cantidad hijos.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BE.CompositePermisos.Patente.RemoverComponente(SGH.BE.CompositePermisos.Permiso)">
+            <summary>
+            Remueve el componente.
+            </summary>
+            <param name="_componentElement">The component element.</param>
+            <exception cref="T:System.Exception">No se puede remover permiso</exception>
+        </member>
+        <member name="T:SGH.BE.CompositePermisos.Permiso">
+            <summary>
+            Interface que corresponde al Permiso
+            </summary>
+        </member>
+        <member name="T:SGH.BE.CompositePermisos.Usuario">
+            <summary>
+            Clase de Entidad de Negocio perteneciente al Usuario
+            </summary>
+        </member>
+        <member name="P:SGH.BE.CompositePermisos.Usuario.Instancia">
+            <summary>
+            Obtiene la instancia.
+            </summary>
+            <value>
+            The instancia.
+            </value>
+        </member>
+        <member name="M:SGH.BE.CompositePermisos.Usuario.Destructor">
+            <summary>
+            Destructor de esta instancia.
+            </summary>
+        </member>
+        <member name="P:SGH.BE.CompositePermisos.Usuario.errorDigito">
+            <summary>
+            Gets or sets a value indicating whether [error digito].
+            </summary>
+            <value>
+              <c>true</c> if [error digito]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:SGH.BE.CompositePermisos.Usuario.idioma">
+            <summary>
+            Obtiene idioma.
+            </summary>
+            <value>
+            The idioma.
+            </value>
+        </member>
+        <member name="P:SGH.BE.CompositePermisos.Usuario.bloqueado">
+            <summary>
+            Gets or sets a value indicating whether this <see cref="T:SGH.BE.CompositePermisos.Usuario"/> is bloqueado.
+            </summary>
+            <value>
+              <c>true</c> if bloqueado; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:SGH.BE.CompositePermisos.Usuario.intentosFallidos">
+            <summary>
+            Gets or sets the intentos fallidos.
+            </summary>
+            <value>
+            The intentos fallidos.
+            </value>
+        </member>
+        <member name="P:SGH.BE.CompositePermisos.Usuario.borrado">
+            <summary>
+            Gets or sets a value indicating whether this <see cref="T:SGH.BE.CompositePermisos.Usuario"/> is borrado.
+            </summary>
+            <value>
+              <c>true</c> if borrado; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:SGH.BE.CompositePermisos.Usuario.DVH">
+            <summary>
+            Gets or sets the DVH.
+            </summary>
+            <value>
+            The DVH.
+            </value>
+        </member>
+        <member name="T:SGH.BE.DigitoVerificadorVertical">
+            <summary>
+            Clase Entidad de Negocio perteneciente al DVV
+            </summary>
+        </member>
+        <member name="T:SGH.BE.MultiIdioma.ControlIdioma">
+            <summary>
+            Clase Entidad de Negocio para el Control 
+            </summary>
+        </member>
+        <member name="T:SGH.BE.MultiIdioma.Idioma">
+            <summary>
+            Clase Entidad de Negocio que implementa la interface ISujeto
+            </summary>
+            <seealso cref="T:SGH.BE.Observer.ISujeto" />
+        </member>
+        <member name="P:SGH.BE.MultiIdioma.Idioma.InstanciaIdioma">
+            <summary>
+            Gets the instancia idioma.
+            </summary>
+            <value>
+            The instancia idioma.
+            </value>
+        </member>
+        <member name="M:SGH.BE.MultiIdioma.Idioma.Destructor">
+            <summary>
+            Destructors this instance.
+            </summary>
+        </member>
+        <member name="M:SGH.BE.MultiIdioma.Idioma.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SGH.BE.MultiIdioma.Idioma"/> class.
+            </summary>
+        </member>
+        <member name="M:SGH.BE.MultiIdioma.Idioma.RegistrarObserver(SGH.BE.Observer.IObserver)">
+            <summary>
+            Registrars the observer.
+            </summary>
+            <param name="observer">The observer.</param>
+        </member>
+        <member name="M:SGH.BE.MultiIdioma.Idioma.SacarRegistroObserver(SGH.BE.Observer.IObserver)">
+            <summary>
+            Sacars the registro observer.
+            </summary>
+            <param name="observer">The observer.</param>
+        </member>
+        <member name="T:SGH.BE.MultiIdioma.Palabra">
+            <summary>
+            Clase de Entidad de Negocio perteneciente a Palabra
+            </summary>
+        </member>
+        <member name="T:SGH.BE.Traduccion">
+            <summary>
+            Clase Entidad de Negocio para Traducción
+            </summary>
+        </member>
+        <member name="T:SGH.BE.Observer.IObserver">
+            <summary>
+            Interfaz que implementa el Patrón Observer
+            </summary>
+        </member>
+        <member name="T:SGH.BE.Observer.ISujeto">
+            <summary>
+            Interfaz ISujeto que registra, notifica y saca registro del patrón Observer
+            </summary>
+        </member>
+        <member name="T:SGH.BLL.BLLBackupRestore">
+            <summary>Clase Lógica de Negocio para el Backup - Restore</summary>
+        </member>
+        <member name="M:SGH.BLL.BLLBackupRestore.GrabarDatosBackup(System.String,System.String,System.String,System.String)">
+            <summary>
+            Graba datos backup.
+            </summary>
+            <param name="nombreBaseDeDatos">The nombre base de datos.</param>
+            <param name="rutaBase">The ruta base.</param>
+            <param name="nombreBackup">The nombre backup.</param>
+            <param name="nombreUsuario">The nombre usuario.</param>
+        </member>
+        <member name="M:SGH.BLL.BLLBackupRestore.TraerDatosBackup">
+            <summary>
+            Trae datos backup.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLBackupRestore.TraerBasesDeDatos">
+            <summary>
+            Trae bases de datos.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLBackupRestore.HacerBackup(System.String,System.String,System.String)">
+            <summary>
+            Hace backup.
+            </summary>
+            <param name="nombreBase">The nombre base.</param>
+            <param name="ruta">The ruta.</param>
+            <param name="nombreBackup">The nombre backup.</param>
+        </member>
+        <member name="M:SGH.BLL.BLLBackupRestore.HacerRestore(System.String,System.String)">
+            <summary>
+            Hace restore.
+            </summary>
+            <param name="nombreBase">The nombre base.</param>
+            <param name="ruta">The ruta.</param>
+        </member>
+        <member name="T:SGH.BLL.BLLBitacora">
+            <summary>
+            Clase Lógica de Negocio perteneciente a la Bitácora
+            </summary>
+        </member>
+        <member name="M:SGH.BLL.BLLBitacora.GrabarBitacora(SGH.BE.Bitacora)">
+            <summary>
+            Graba bitacora.
+            </summary>
+            <param name="unaBitacora">The una bitacora.</param>
+        </member>
+        <member name="M:SGH.BLL.BLLBitacora.LeerBitacora(SGH.BE.Bitacora)">
+            <summary>
+            Lee bitacora.
+            </summary>
+            <param name="unaBitacora">The una bitacora.</param>
+        </member>
+        <member name="M:SGH.BLL.BLLBitacora.TraerBitacoras">
+            <summary>
+            Trae bitacoras.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLBitacora.TraerFormulariosBitacora">
+            <summary>
+            Trae formularios bitacora.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLBitacora.TraerBitacoras(SGH.BE.CompositePermisos.Usuario,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            Trae bitacoras.
+            </summary>
+            <param name="unUsuario">The un usuario.</param>
+            <param name="formulario">The formulario.</param>
+            <param name="fechaDesde">The fecha desde.</param>
+            <param name="fechaHasta">The fecha hasta.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLBitacora.TraerBitacoras(System.String,System.DateTime,System.DateTime)">
+            <summary>
+            Trae bitacoras.
+            </summary>
+            <param name="formulario">The formulario.</param>
+            <param name="fechaDesde">The fecha desde.</param>
+            <param name="fechaHasta">The fecha hasta.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLBitacora.TraerBitacoras(System.DateTime,System.DateTime)">
+            <summary>
+            Trae bitacoras.
+            </summary>
+            <param name="fechaDesde">The fecha desde.</param>
+            <param name="fechaHasta">The fecha hasta.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLBitacora.TraerBitacoras(SGH.BE.CompositePermisos.Usuario,System.DateTime,System.DateTime)">
+            <summary>
+            Trae bitacoras.
+            </summary>
+            <param name="unUsuario">The un usuario.</param>
+            <param name="fechaDesde">The fecha desde.</param>
+            <param name="fechaHasta">The fecha hasta.</param>
+            <returns></returns>
+        </member>
+        <member name="T:SGH.BLL.BLLDv">
+            <summary>
+            Clase Lógica de Negocio del DVH
+            </summary>
+        </member>
+        <member name="M:SGH.BLL.BLLDv.CalcularDigitoVerificadorHorizontalUsuario(SGH.BE.CompositePermisos.Usuario)">
+            <summary>
+            Calcula  digito verificador horizontal usuario.
+            </summary>
+            <param name="usuario">The usuario.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLDv.CalcularDigitoVerificadorVertical">
+            <summary>
+            Calcula digito verificador vertical.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SGH.BLL.BLLGestionCambios">
+            <summary>
+            Clase Lógica de Negocio perteneciente a la Gestión de Cambios
+            </summary>
+        </member>
+        <member name="M:SGH.BLL.BLLGestionCambios.TraerTodoGestionCambios">
+            <summary>
+            Trae todo gestion cambios.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLGestionCambios.TraerTodoGestionCambiosDelete">
+            <summary>
+            Trae todo gestion cambios delete.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SGH.BLL.BLLIdioma">
+            <summary>
+            Clase Lógica de Negocio para Idioma
+            </summary>
+        </member>
+        <member name="M:SGH.BLL.BLLIdioma.TraerControles(System.Int32)">
+            <summary>
+            Traer controles.
+            </summary>
+            <param name="idioma">The idioma.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLIdioma.Traducir(System.Int32,System.Windows.Forms.Form)">
+            <summary>
+            Traducir ID idioma.
+            </summary>
+            <param name="idIdioma">The identifier idioma.</param>
+            <param name="formTraducir">The form traducir.</param>
+        </member>
+        <member name="M:SGH.BLL.BLLIdioma.TraerTodosLosIdiomas">
+            <summary>
+            Traer todos los idiomas.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLIdioma.TraerIdiomaSeleccionado(System.String)">
+            <summary>
+            Traer idioma seleccionado.
+            </summary>
+            <param name="idiomaSeleccionado">The idioma seleccionado.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLIdioma.AgregarIdioma(SGH.BE.MultiIdioma.Idioma)">
+            <summary>
+            Agregar idioma.
+            </summary>
+            <param name="unIdioma">The un idioma.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLIdioma.ObtenerTraduccionesIdioma(System.Int32)">
+            <summary>
+            Obtener traducciones idioma.
+            </summary>
+            <param name="idIdioma">The identifier idioma.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLIdioma.TraerTodasLasPalabras">
+            <summary>
+            Traer todas las palabras.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLIdioma.CargarTraduccion(SGH.BE.Traduccion)">
+            <summary>
+            Cargar traduccion.
+            </summary>
+            <param name="unaTraduccion">The una traduccion.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLIdioma.ModificarTraduccion(SGH.BE.Traduccion)">
+            <summary>
+            Modificar traduccion.
+            </summary>
+            <param name="unaTraduccion">The una traduccion.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLIdioma.EliminarTraduccion(SGH.BE.Traduccion)">
+            <summary>
+            Eliminar traduccion.
+            </summary>
+            <param name="unaTraduccion">The una traduccion.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLIdioma.EliminarIdioma(SGH.BE.MultiIdioma.Idioma)">
+            <summary>
+            Eliminar idioma.
+            </summary>
+            <param name="idioma">The idioma.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLIdioma.CargarPalabra(SGH.BE.MultiIdioma.Palabra)">
+            <summary>
+            Cargar palabra.
+            </summary>
+            <param name="unaPalabra">The una palabra.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLIdioma.EliminarPalabra(SGH.BE.MultiIdioma.Palabra)">
+            <summary>
+            Eliminar palabra.
+            </summary>
+            <param name="unaPalabra">The una palabra.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLIdioma.ModificarPalabra(SGH.BE.MultiIdioma.Palabra)">
+            <summary>
+            Modificar palabra.
+            </summary>
+            <param name="unaPalabra">The una palabra.</param>
+            <returns></returns>
+        </member>
+        <member name="T:SGH.BLL.BLLUsuario">
+            <summary>
+            Clase Lógica de Negocio del Usuario
+            </summary>
+        </member>
+        <member name="M:SGH.BLL.BLLUsuario.RegistrarUsuario(SGH.BE.CompositePermisos.Usuario)">
+            <summary>
+            Registra usuario.
+            </summary>
+            <param name="nuevoUsuario">The nuevo usuario.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLUsuario.IniciarSesion(SGH.BE.CompositePermisos.Usuario)">
+            <summary>
+            Inicia sesion.
+            </summary>
+            <param name="usuario">The usuario.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLUsuario.TraerUsuario(System.String)">
+            <summary>
+            Trae usuario.
+            </summary>
+            <param name="dni">The dni.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLUsuario.TraerRolesParaAgregar">
+            <summary>
+            Trae roles para agregar.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLUsuario.TraerPermisoSimples(System.String)">
+            <summary>
+            Trae permiso simples.
+            </summary>
+            <param name="idSelected">The identifier selected.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLUsuario.AgregarRol(SGH.BE.CompositePermisos.Usuario,System.String)">
+            <summary>
+            Agrega rol.
+            </summary>
+            <param name="nuevoUsuario">The nuevo usuario.</param>
+            <param name="dni">The dni.</param>
+        </member>
+        <member name="M:SGH.BLL.BLLUsuario.TraerPermisoUsuario(System.String)">
+            <summary>
+            Trae permiso usuario.
+            </summary>
+            <param name="dni">The dni.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLUsuario.TraerTodosLosUsuarios">
+            <summary>
+            Trae todos los usuarios.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLUsuario.TraerPermisoSimplesPorDni(System.String)">
+            <summary>
+            Trae permiso simples por dni.
+            </summary>
+            <param name="dni">The dni.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLUsuario.ModificarUsuario(SGH.BE.CompositePermisos.Usuario,System.String)">
+            <summary>
+            Modifica usuario.
+            </summary>
+            <param name="unUsuarioModificado">The un usuario modificado.</param>
+            <param name="dni">The dni.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLUsuario.TraerPermisoUsuarioQueNoTieneAsignados(System.String)">
+            <summary>
+            Trae permiso usuario que no tiene asignados.
+            </summary>
+            <param name="dni">The dni.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLUsuario.TraerRolUsuario(System.String)">
+            <summary>
+            Trae rol usuario.
+            </summary>
+            <param name="dni">The dni.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLUsuario.TraerUsuarioParaLogin(System.String)">
+            <summary>
+            Trae usuario para login.
+            </summary>
+            <param name="dni">The dni.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLUsuario.AgregarPermiso(SGH.BE.CompositePermisos.Usuario,System.String)">
+            <summary>
+            Agrega permiso.
+            </summary>
+            <param name="nuevoUsuario">The nuevo usuario.</param>
+            <param name="dni">The dni.</param>
+        </member>
+        <member name="M:SGH.BLL.BLLUsuario.BorrarUsuario(System.String)">
+            <summary>
+            Borra usuario.
+            </summary>
+            <param name="idUsuario">The identifier usuario.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.BLL.BLLUsuario.TraerUsuarioPorNombre(System.String)">
+            <summary>
+            Traer por nombre.
+            </summary>
+            <param name="unNombre">The un nombre.</param>
+            <returns></returns>
+        </member>
+        <member name="T:SGH.Servicios.DALBackupRestore">
+            <summary>Mapper de Backup - Restore</summary>
+        </member>
+        <member name="M:SGH.Servicios.DALBackupRestore.GrabarDatosBackup(System.String,System.String,System.String,System.String)">
+            <summary>
+            Graba datos backup.
+            </summary>
+            <param name="nombreBaseDeDatos">The nombre base de datos.</param>
+            <param name="rutaBase">The ruta base.</param>
+            <param name="nombreBackup">The nombre backup.</param>
+            <param name="nombreUsuario">The nombre usuario.</param>
+        </member>
+        <member name="M:SGH.Servicios.DALBackupRestore.HacerRestore(System.String,System.String)">
+            <summary>
+            Hace restore.
+            </summary>
+            <param name="nombreBase">The nombre base.</param>
+            <param name="ruta">The ruta.</param>
+        </member>
+        <member name="M:SGH.Servicios.DALBackupRestore.HacerBackup(System.String,System.String,System.String)">
+            <summary>
+            Hace backup.
+            </summary>
+            <param name="nombreBase">The nombre base.</param>
+            <param name="ruta">The ruta.</param>
+            <param name="nombreBackup">The nombre backup.</param>
+        </member>
+        <member name="M:SGH.Servicios.DALBackupRestore.TraerBasesDeDatos">
+            <summary>
+            Trae bases de datos.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.Servicios.DALBackupRestore.TraerDatosBackup">
+            <summary>
+            Trae datos backup.
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="T:SGH.Servicios.DALBitacora">
+            <summary>
+            Mapper de la Bitácora
+            </summary>
+        </member>
+        <member name="M:SGH.Servicios.DALBitacora.GrabarBitacora(SGH.BE.Bitacora)">
+            <summary>
+            Graba bitacora.
+            </summary>
+            <param name="unaBitacora">The una bitacora.</param>
+        </member>
+        <member name="M:SGH.Servicios.DALBitacora.LeerBitacora(SGH.BE.Bitacora)">
+            <summary>
+            Lee bitacora.
+            </summary>
+            <param name="unaBitacora">The una bitacora.</param>
+        </member>
+        <member name="M:SGH.Servicios.DALBitacora.TraerBitacoras">
+            <summary>
+            Trae bitacoras.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.Servicios.DALBitacora.TraerFormulariosBitacora">
+            <summary>
+            Trae formularios bitacora.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.Servicios.DALBitacora.TraerBitacoras(SGH.BE.CompositePermisos.Usuario,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            Trae bitacoras.
+            </summary>
+            <param name="unUsuario">The un usuario.</param>
+            <param name="formulario">The formulario.</param>
+            <param name="fechaDesde">The fecha desde.</param>
+            <param name="fechaHasta">The fecha hasta.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.Servicios.DALBitacora.TraerBitacoras(System.String,System.DateTime,System.DateTime)">
+            <summary>
+            Trae bitacoras.
+            </summary>
+            <param name="formulario">The formulario.</param>
+            <param name="fechaDesde">The fecha desde.</param>
+            <param name="fechaHasta">The fecha hasta.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.Servicios.DALBitacora.TraerBitacoras(System.DateTime,System.DateTime)">
+            <summary>
+            Trae bitacoras.
+            </summary>
+            <param name="fechaDesde">The fecha desde.</param>
+            <param name="fechaHasta">The fecha hasta.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.Servicios.DALBitacora.TraerBitacoras(SGH.BE.CompositePermisos.Usuario,System.DateTime,System.DateTime)">
+            <summary>
+            Trae bitacoras.
+            </summary>
+            <param name="unUsuario">The un usuario.</param>
+            <param name="fechaDesde">The fecha desde.</param>
+            <param name="fechaHasta">The fecha hasta.</param>
+            <returns></returns>
+        </member>
+        <member name="T:SGH.Servicios.Configuracion">
+            <summary>
+            Clase utilizada para pasar la cadena de conexión
+            </summary>
+        </member>
+        <member name="M:SGH.Servicios.Configuracion.ObtenerStringConexionSqlServer">
+            <summary>
+            Obtiene el conexion SQL server.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.Servicios.Configuracion.ObtenerStringConexionSqlServerParaBackupRestore">
+            <summary>
+            Obtiene el string conexion SQL server para backup restore.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SGH.Servicios.DALDv">
+            <summary>
+            Mapper para el Dígito Verificador Horizonal
+            </summary>
+        </member>
+        <member name="M:SGH.Servicios.DALDv.CalcularDigitoVerificadorVertical">
+            <summary>
+            Calcula digito verificador vertical.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SGH.Servicios.DALGestionCambios">
+            <summary>
+            Mapper para la gestión de cambios
+            </summary>
+        </member>
+        <member name="M:SGH.Servicios.DALGestionCambios.TraerTodoGestionCambios">
+            <summary>
+            Traer todo gestion cambios.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.Servicios.DALGestionCambios.TraerTodoGestionCambiosDelete">
+            <summary>
+            Traer todo gestion cambios delete.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SGH.Servicios.GestorDeCambiosCliente">
+            <summary>
+            Clase Entidad de Negocio para el Gestor de Cambios
+            </summary>
+            <seealso cref="!:SGH.Servicios.IGestorDeCambios&lt;SGH.BE.Cliente&gt;" />
+        </member>
+        <member name="M:SGH.Servicios.GestorDeCambiosCliente.AuditarInsert(SGH.BE.Cliente)">
+            <summary>
+            Audita insert.
+            </summary>
+            <param name="nuevoCliente">The nuevo cliente.</param>
+        </member>
+        <member name="M:SGH.Servicios.GestorDeCambiosCliente.AuditarUpdate(SGH.BE.Cliente)">
+            <summary>
+            Audita update.
+            </summary>
+            <param name="Objeto">The objeto.</param>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="T:SGH.Servicios.Idioma">
+            <summary>
+            Clase que sirve para el cambio de Idioma
+            </summary>
+        </member>
+        <member name="P:SGH.Servicios.Idioma.IDIOMA_ACTUAL">
+            <summary>
+            Obtiene idioma actual.
+            </summary>
+            <value>
+            The idioma actual.
+            </value>
+        </member>
+        <member name="M:SGH.Servicios.Idioma.EstablecerIdiomaActual(SGH.BE.MultiIdioma.Idioma)">
+            <summary>
+            Establece  idioma actual.
+            </summary>
+            <param name="unIdioma">The un idioma.</param>
+        </member>
+        <member name="M:SGH.Servicios.Idioma.ObtenerIdiomaActual">
+            <summary>
+            Obtiene idioma actual.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SGH.Servicios.IExportadorDeArchivos`1">
+            <summary>
+            Interface para exportar archivos
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:SGH.Servicios.IExportadorDeArchivos`1.ExportarArchivo(`0,System.String)">
+            <summary>
+            Exporta archivo.
+            </summary>
+            <param name="TablaExportar">The tabla exportar.</param>
+            <param name="nombreArchivo">The nombre archivo.</param>
+        </member>
+        <member name="T:SGH.Servicios.IGestorDeCambios`1">
+            <summary>
+            Interface Gestor de Cambios
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:SGH.Servicios.IGestorDeCambios`1.AuditarInsert(`0)">
+            <summary>
+            Audita  insert.
+            </summary>
+            <param name="Objeto">The objeto.</param>
+        </member>
+        <member name="M:SGH.Servicios.IGestorDeCambios`1.AuditarUpdate(`0)">
+            <summary>
+            Audita update.
+            </summary>
+            <param name="Objeto">The objeto.</param>
+        </member>
+        <member name="T:SGH.Servicios.ISerializer`1">
+            <summary>
+            Interface para serializar
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:SGH.Servicios.ISerializer`1.SerializeXml(`0,System.String)">
+            <summary>
+            Serializes the XML.
+            </summary>
+            <param name="objetoASerializar">The objeto a serializar.</param>
+            <param name="nombreArchivo">The nombre archivo.</param>
+        </member>
+        <member name="M:SGH.Servicios.ISerializer`1.SerializeJson(`0,System.String)">
+            <summary>
+            Serializes the json.
+            </summary>
+            <param name="objetoASerializar">The objeto a serializar.</param>
+            <param name="nombreArchivo">The nombre archivo.</param>
+        </member>
+        <member name="T:SGH.Servicios.DALIdioma">
+            <summary>
+            Mapper para el Idioma
+            </summary>
+        </member>
+        <member name="M:SGH.Servicios.DALIdioma.AgregarIdioma(SGH.BE.MultiIdioma.Idioma)">
+            <summary>
+            Agregar idioma.
+            </summary>
+            <param name="unIdioma">The un idioma.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.Servicios.DALIdioma.TraerControles(System.Int32)">
+            <summary>
+            Trae controles.
+            </summary>
+            <param name="idioma">The idioma.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.Servicios.DALIdioma.TraerTodosLosIdiomas">
+            <summary>
+            Traer todos los idiomas.
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.Servicios.DALIdioma.TraerIdiomaSeleccionado(System.String)">
+            <summary>
+            Traer idioma seleccionado.
+            </summary>
+            <param name="idiomaSeleccionado">The idioma seleccionado.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.Servicios.DALIdioma.ObtenerTraduccionesIdioma(System.Int32)">
+            <summary>
+            Obtener traducciones idioma.
+            </summary>
+            <param name="idIdioma">The identifier idioma.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.Servicios.DALIdioma.TraerTodasLasPalabras">
+            <summary>
+            Traer todas las palabras.
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.Servicios.DALIdioma.CargarTraduccion(SGH.BE.Traduccion)">
+            <summary>
+            Cargar traduccion.
+            </summary>
+            <param name="unaTraduccion">The una traduccion.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.Servicios.DALIdioma.ModificarTraduccion(SGH.BE.Traduccion)">
+            <summary>
+            Modificar traduccion.
+            </summary>
+            <param name="unaTraduccion">The una traduccion.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.Servicios.DALIdioma.EliminarTraduccion(SGH.BE.Traduccion)">
+            <summary>
+            Eliminar traduccion.
+            </summary>
+            <param name="unaTraduccion">The una traduccion.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.Servicios.DALIdioma.EliminarIdioma(SGH.BE.MultiIdioma.Idioma)">
+            <summary>
+            Eliminar idioma.
+            </summary>
+            <param name="unIdioma">The un idioma.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.Servicios.DALIdioma.CargarPalabra(SGH.BE.MultiIdioma.Palabra)">
+            <summary>
+            Cargar palabra.
+            </summary>
+            <param name="unaPalabra">The una palabra.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.Servicios.DALIdioma.EliminarPalabra(SGH.BE.MultiIdioma.Palabra)">
+            <summary>
+            Eliminar palabra.
+            </summary>
+            <param name="unaPalabra">The una palabra.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.Servicios.DALIdioma.ModificarPalabra(SGH.BE.MultiIdioma.Palabra)">
+            <summary>
+            Modificar palabra.
+            </summary>
+            <param name="unaPalabra">The una palabra.</param>
+            <returns></returns>
+        </member>
+        <member name="T:SGH.Servicios.Traductor">
+            <summary>
+            Clase encargada de la traducción de los controles y tags
+            </summary>
+        </member>
+        <member name="M:SGH.Servicios.Traductor.CambiarIdioma(System.Windows.Forms.Form,System.Collections.Generic.List{SGH.BE.MultiIdioma.ControlIdioma})">
+            <summary>
+            Cambia idioma.
+            </summary>
+            <param name="thisForm">The this form.</param>
+            <param name="idioma">The idioma.</param>
+        </member>
+        <member name="T:SGH.Servicios.DALUsuario">
+            <summary>
+            Mapper del Usuario
+            </summary>
+        </member>
+        <member name="M:SGH.Servicios.DALUsuario.RegistrarUsuario(SGH.BE.CompositePermisos.Usuario)">
+            <summary>
+            Registra usuario.
+            </summary>
+            <param name="nuevoUsuario">The nuevo usuario.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.Servicios.DALUsuario.TraerTodosLosUsuarios">
+            <summary>
+            Trae todos los usuarios.
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.Servicios.DALUsuario.ModificarUsuario(SGH.BE.CompositePermisos.Usuario,System.String)">
+            <summary>
+            Modifica usuario.
+            </summary>
+            <param name="unUsuarioModificado">The un usuario modificado.</param>
+            <param name="dni">The dni.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.Servicios.DALUsuario.BorrarUsuario(System.String)">
+            <summary>
+            Borra usuario.
+            </summary>
+            <param name="idUsuario">The identifier usuario.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.Servicios.DALUsuario.TraerPermisoUsuarioQueNoTieneAsignados(System.String)">
+            <summary>
+            Trae permiso usuario que no tiene asignados.
+            </summary>
+            <param name="dni">The dni.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.Servicios.DALUsuario.AgregarPermiso(SGH.BE.CompositePermisos.Usuario,System.String)">
+            <summary>
+            Agrega permiso.
+            </summary>
+            <param name="nuevoUsuario">The nuevo usuario.</param>
+            <param name="dni">The dni.</param>
+        </member>
+        <member name="M:SGH.Servicios.DALUsuario.TraerPermisoUsuario(System.String)">
+            <summary>
+            Trae permiso usuario.
+            </summary>
+            <param name="dni">The dni.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.Servicios.DALUsuario.TraerRolUsuario(System.String)">
+            <summary>
+            Trae rol usuario.
+            </summary>
+            <param name="dni">The dni.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.Servicios.DALUsuario.TraerUsuarioParaLogin(System.String)">
+            <summary>
+            Trae usuario para login.
+            </summary>
+            <param name="dni">The dni.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.Servicios.DALUsuario.TraerPermisoSimplesPorDni(System.String)">
+            <summary>
+            Trae permiso simples por dni.
+            </summary>
+            <param name="dni">The dni.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.Servicios.DALUsuario.AgregarRol(SGH.BE.CompositePermisos.Usuario,System.String)">
+            <summary>
+            Agrega rol.
+            </summary>
+            <param name="nuevoUsuario">The nuevo usuario.</param>
+            <param name="dni">The dni.</param>
+        </member>
+        <member name="M:SGH.Servicios.DALUsuario.TraerPermisoSimples(System.String)">
+            <summary>
+            Trae permiso simples.
+            </summary>
+            <param name="idSelected">The identifier selected.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.Servicios.DALUsuario.TraerRolesParaAgregar">
+            <summary>
+            Trae roles para agregar.
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.Servicios.DALUsuario.TraerUsuario(System.String)">
+            <summary>
+            Trae usuario.
+            </summary>
+            <param name="dni">The dni.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.Servicios.DALUsuario.IniciarSesion(SGH.BE.CompositePermisos.Usuario)">
+            <summary>
+            Inicia sesion.
+            </summary>
+            <param name="usuario">The usuario.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.Servicios.DALUsuario.TraerUsuarioPorNombre(System.String)">
+            <summary>
+            Trae usuario por nombre.
+            </summary>
+            <param name="nombre">The nombre.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="T:SGH.Servicios.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:SGH.Servicios.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:SGH.Servicios.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:SGH.DAL.SqlServerConnection">
+            <summary>
+            Clase interna para el SQL Server Connection
+            </summary>
+        </member>
+    </members>
+</doc>

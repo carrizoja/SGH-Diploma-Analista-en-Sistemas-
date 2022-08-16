@@ -1,0 +1,8 @@
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BE\bin\Release\SGH.BE.dll.config
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BE\bin\Release\SGH.BE.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BE\bin\Release\SGH.BE.pdb
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BE\obj\Release\SGH.BE.Properties.Resources.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BE\obj\Release\SGH.BE.csproj.GenerateResource.cache
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BE\obj\Release\SGH.BE.csproj.CoreCompileInputs.cache
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BE\obj\Release\SGH.BE.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BE\obj\Release\SGH.BE.pdb

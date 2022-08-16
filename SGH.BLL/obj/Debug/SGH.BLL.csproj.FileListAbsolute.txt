@@ -1,0 +1,183 @@
+C:\Users\koche\Google Drive\UAI\Diploma\Diploma 2019\SGH al 16-4-19\SGHv1.0_19-4-19\SGHv1.0\SGH.BLL\obj\Debug\SGH.BLL.Properties.Resources.resources
+C:\Users\koche\Google Drive\UAI\Diploma\Diploma 2019\SGH al 16-4-19\SGHv1.0_19-4-19\SGHv1.0\SGH.BLL\obj\Debug\SGH.BLL.csproj.GenerateResource.Cache
+C:\Users\koche\Google Drive\UAI\Diploma\Diploma 2019\SGH al 16-4-19\SGHv1.0_19-4-19\SGHv1.0\SGH.BLL\obj\Debug\SGH.BLL.csproj.CoreCompileInputs.cache
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.BLL.dll.config
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.BLL.dll
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.BLL.pdb
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\bin\Debug\Framework.Carrizo.dll
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.BE.dll
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.DAL.dll
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.Servicios.dll
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\bin\Debug\Framework.Carrizo.pdb
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\bin\Debug\Framework.Carrizo.dll.config
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.BE.pdb
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.BE.dll.config
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.DAL.pdb
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.DAL.dll.config
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.Servicios.pdb
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.Servicios.dll.config
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\obj\Debug\SGH.BLL.csprojResolveAssemblyReference.cache
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\obj\Debug\SGH.BLL.Properties.Resources.resources
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\obj\Debug\SGH.BLL.csproj.GenerateResource.Cache
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\obj\Debug\SGH.BLL.csproj.CoreCompileInputs.cache
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\obj\Debug\SGH.BLL.dll
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\obj\Debug\SGH.BLL.pdb
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.BLL.dll.config
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.BLL.dll
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.BLL.pdb
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\bin\Debug\Framework.Carrizo.dll
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.BE.dll
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.DAL.dll
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.Servicios.dll
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\bin\Debug\Framework.Carrizo.pdb
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\bin\Debug\Framework.Carrizo.dll.config
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.BE.pdb
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.BE.dll.config
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.DAL.pdb
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.DAL.dll.config
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.Servicios.pdb
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.Servicios.dll.config
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\obj\Debug\SGH.BLL.csprojResolveAssemblyReference.cache
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\obj\Debug\SGH.BLL.Properties.Resources.resources
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\obj\Debug\SGH.BLL.csproj.GenerateResource.cache
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\obj\Debug\SGH.BLL.csproj.CoreCompileInputs.cache
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\obj\Debug\SGH.BLL.csproj.CopyComplete
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\obj\Debug\SGH.BLL.dll
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGH.BLL\obj\Debug\SGH.BLL.pdb
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.BLL.dll.config
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.BLL.dll
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.BLL.pdb
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGH.BLL\bin\Debug\Framework.Carrizo.dll
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.BE.dll
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.DAL.dll
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.Servicios.dll
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGH.BLL\bin\Debug\Framework.Carrizo.pdb
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGH.BLL\bin\Debug\Framework.Carrizo.dll.config
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.BE.pdb
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.BE.dll.config
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.DAL.pdb
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.DAL.dll.config
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.Servicios.pdb
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGH.BLL\bin\Debug\SGH.Servicios.dll.config
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGH.BLL\obj\Debug\SGH.BLL.csprojResolveAssemblyReference.cache
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGH.BLL\obj\Debug\SGH.BLL.Properties.Resources.resources
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGH.BLL\obj\Debug\SGH.BLL.csproj.GenerateResource.Cache
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGH.BLL\obj\Debug\SGH.BLL.csproj.CoreCompileInputs.cache
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGH.BLL\obj\Debug\SGH.BLL.dll
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGH.BLL\obj\Debug\SGH.BLL.pdb
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGH.BLL\obj\Debug\SGH.BLL.csproj.CopyComplete
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGH.BLL\bin\Debug\SGH.BLL.dll.config
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGH.BLL\bin\Debug\SGH.BLL.dll
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGH.BLL\bin\Debug\SGH.BLL.pdb
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGH.BLL\bin\Debug\Framework.Carrizo.dll
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGH.BLL\bin\Debug\SGH.BE.dll
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGH.BLL\bin\Debug\SGH.DAL.dll
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGH.BLL\bin\Debug\SGH.Servicios.dll
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGH.BLL\bin\Debug\Framework.Carrizo.pdb
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGH.BLL\bin\Debug\Framework.Carrizo.dll.config
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGH.BLL\bin\Debug\SGH.BE.pdb
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGH.BLL\bin\Debug\SGH.BE.dll.config
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGH.BLL\bin\Debug\SGH.DAL.pdb
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGH.BLL\bin\Debug\SGH.DAL.dll.config
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGH.BLL\bin\Debug\SGH.Servicios.pdb
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGH.BLL\bin\Debug\SGH.Servicios.dll.config
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGH.BLL\obj\Debug\SGH.BLL.csprojResolveAssemblyReference.cache
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGH.BLL\obj\Debug\SGH.BLL.Properties.Resources.resources
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGH.BLL\obj\Debug\SGH.BLL.csproj.GenerateResource.Cache
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGH.BLL\obj\Debug\SGH.BLL.csproj.CoreCompileInputs.cache
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGH.BLL\obj\Debug\SGH.BLL.dll
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGH.BLL\obj\Debug\SGH.BLL.pdb
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGH.BLL\bin\Debug\SGH.BLL.dll.config
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGH.BLL\bin\Debug\SGH.BLL.dll
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGH.BLL\bin\Debug\SGH.BLL.pdb
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGH.BLL\bin\Debug\Framework.Carrizo.dll
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGH.BLL\bin\Debug\SGH.BE.dll
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGH.BLL\bin\Debug\SGH.DAL.dll
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGH.BLL\bin\Debug\SGH.Servicios.dll
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGH.BLL\bin\Debug\Framework.Carrizo.pdb
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGH.BLL\bin\Debug\Framework.Carrizo.dll.config
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGH.BLL\bin\Debug\SGH.BE.pdb
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGH.BLL\bin\Debug\SGH.BE.dll.config
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGH.BLL\bin\Debug\SGH.DAL.pdb
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGH.BLL\bin\Debug\SGH.DAL.dll.config
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGH.BLL\bin\Debug\SGH.Servicios.pdb
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGH.BLL\bin\Debug\SGH.Servicios.dll.config
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGH.BLL\obj\Debug\SGH.BLL.csprojResolveAssemblyReference.cache
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGH.BLL\obj\Debug\SGH.BLL.Properties.Resources.resources
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGH.BLL\obj\Debug\SGH.BLL.csproj.GenerateResource.cache
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGH.BLL\obj\Debug\SGH.BLL.csproj.CoreCompileInputs.cache
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGH.BLL\obj\Debug\SGH.BLL.csproj.CopyComplete
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGH.BLL\obj\Debug\SGH.BLL.dll
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGH.BLL\obj\Debug\SGH.BLL.pdb
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGH.BLL\bin\Debug\SGH.BLL.dll.config
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGH.BLL\bin\Debug\SGH.BLL.dll
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGH.BLL\bin\Debug\SGH.BLL.pdb
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGH.BLL\bin\Debug\Framework.Carrizo.dll
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGH.BLL\bin\Debug\SGH.BE.dll
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGH.BLL\bin\Debug\SGH.DAL.dll
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGH.BLL\bin\Debug\SGH.Servicios.dll
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGH.BLL\bin\Debug\Framework.Carrizo.pdb
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGH.BLL\bin\Debug\Framework.Carrizo.dll.config
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGH.BLL\bin\Debug\SGH.BE.pdb
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGH.BLL\bin\Debug\SGH.BE.dll.config
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGH.BLL\bin\Debug\SGH.DAL.pdb
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGH.BLL\bin\Debug\SGH.DAL.dll.config
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGH.BLL\bin\Debug\SGH.Servicios.pdb
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGH.BLL\bin\Debug\SGH.Servicios.dll.config
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGH.BLL\obj\Debug\SGH.BLL.Properties.Resources.resources
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGH.BLL\obj\Debug\SGH.BLL.csproj.GenerateResource.cache
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGH.BLL\obj\Debug\SGH.BLL.csproj.CoreCompileInputs.cache
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGH.BLL\obj\Debug\SGH.BLL.csproj.CopyComplete
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGH.BLL\obj\Debug\SGH.BLL.dll
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGH.BLL\obj\Debug\SGH.BLL.pdb
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGH.BLL\obj\Debug\SGH.BLL.csprojAssemblyReference.cache
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\SGH.BLL.dll.config
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\SGH.BLL.dll
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\SGH.BLL.pdb
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\Framework.Carrizo.dll
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\SGH.BE.dll
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\SGH.DAL.dll
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\SGH.Servicios.dll
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\Framework.Carrizo.pdb
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\Framework.Carrizo.dll.config
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\SGH.BE.pdb
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\SGH.BE.dll.config
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\SGH.DAL.pdb
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\SGH.DAL.dll.config
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\SGH.Servicios.pdb
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\SGH.Servicios.dll.config
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGH.BLL\obj\Debug\SGH.BLL.csprojAssemblyReference.cache
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGH.BLL\obj\Debug\SGH.BLL.Properties.Resources.resources
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGH.BLL\obj\Debug\SGH.BLL.csproj.GenerateResource.cache
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGH.BLL\obj\Debug\SGH.BLL.csproj.CoreCompileInputs.cache
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGH.BLL\obj\Debug\SGH.BLL.csproj.CopyComplete
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGH.BLL\obj\Debug\SGH.BLL.dll
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGH.BLL\obj\Debug\SGH.BLL.pdb
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\SGH.BLL.dll.config
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\SGH.BLL.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\SGH.BLL.pdb
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\Framework.Carrizo.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\SGH.BE.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\SGH.DAL.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\SGH.Servicios.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\Framework.Carrizo.pdb
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\Framework.Carrizo.dll.config
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\SGH.BE.pdb
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\SGH.BE.dll.config
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\SGH.DAL.pdb
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\SGH.DAL.dll.config
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\SGH.Servicios.pdb
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\SGH.Servicios.dll.config
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BLL\obj\Debug\SGH.BLL.Properties.Resources.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BLL\obj\Debug\SGH.BLL.csproj.GenerateResource.cache
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BLL\obj\Debug\SGH.BLL.csproj.CoreCompileInputs.cache
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BLL\obj\Debug\SGH.BLL.csproj.CopyComplete
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BLL\obj\Debug\SGH.BLL.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BLL\obj\Debug\SGH.BLL.pdb
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\SGH.BLL.xml
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\Framework.Carrizo.xml
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\SGH.BE.xml
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\SGH.DAL.xml
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\SGH.Servicios.xml
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BLL\bin\Debug\Persistencia\Data\SGH.mdf
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.BLL\obj\Debug\SGH.BLL.csproj.AssemblyReference.cache

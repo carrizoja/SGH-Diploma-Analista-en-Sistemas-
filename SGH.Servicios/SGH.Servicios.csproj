@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F5D61857-E429-458E-B1DF-1653C2EEDBD2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SGH.Servicios</RootNamespace>
+    <AssemblyName>SGH.Servicios</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\SGH.Servicios.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Backup\Backup.cs" />
+    <Compile Include="Backup\BLLBackupRestore.cs" />
+    <Compile Include="Backup\DALBackupRestore.cs" />
+    <Compile Include="Bitacora\Bitacora.cs" />
+    <Compile Include="Bitacora\BitacoraDatos.cs" />
+    <Compile Include="Bitacora\BLLBitacora.cs" />
+    <Compile Include="Bitacora\DALBitacora.cs" />
+    <Compile Include="CompositePermisos\Component.cs" />
+    <Compile Include="CompositePermisos\CompositePermisoPadre.cs" />
+    <Compile Include="CompositePermisos\Familia.cs" />
+    <Compile Include="CompositePermisos\LeafPermisoHijo.cs" />
+    <Compile Include="CompositePermisos\Patente.cs" />
+    <Compile Include="CompositePermisos\Permiso.cs" />
+    <Compile Include="CompositePermisos\Usuario.cs" />
+    <Compile Include="Configuracion.cs" />
+    <Compile Include="DVH\BLLDv.cs" />
+    <Compile Include="DVH\DALDv.cs" />
+    <Compile Include="DVV\DigitoVerificadorVertical.cs" />
+    <Compile Include="ExportadorDePdf.cs" />
+    <Compile Include="GestionDeCambios\BLLGestionCambios.cs" />
+    <Compile Include="GestionDeCambios\DALGestionCambios.cs" />
+    <Compile Include="GestorDeCambiosCliente.cs" />
+    <Compile Include="Idioma.cs" />
+    <Compile Include="IExportadorDeArchivos.cs" />
+    <Compile Include="IGestorDeCambios.cs" />
+    <Compile Include="ISerializer.cs" />
+    <Compile Include="MultiIdioma\BLLIdioma.cs" />
+    <Compile Include="MultiIdioma\ControlIdioma.cs" />
+    <Compile Include="MultiIdioma\DALIdioma.cs" />
+    <Compile Include="MultiIdioma\Idioma.cs" />
+    <Compile Include="MultiIdioma\Palabra.cs" />
+    <Compile Include="MultiIdioma\Traduccion.cs" />
+    <Compile Include="Observer\IObserver.cs" />
+    <Compile Include="Observer\ISujeto.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlServerConnection.cs" />
+    <Compile Include="Traductor.cs" />
+    <Compile Include="Usuario\BLLUsuario.cs" />
+    <Compile Include="Usuario\DALUsuario.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Framework.Carrizo\Framework.Carrizo.csproj">
+      <Project>{3f5d2e76-b6c0-4807-96a9-af48d26ec0f3}</Project>
+      <Name>Framework.Carrizo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SGH.BE\SGH.BE.csproj">
+      <Project>{9b2ec22c-9f69-46a5-9e0a-a14e4eb1adaa}</Project>
+      <Name>SGH.BE</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

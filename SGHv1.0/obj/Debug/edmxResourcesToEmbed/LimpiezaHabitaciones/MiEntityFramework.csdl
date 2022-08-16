@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SGHModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="EmpleadoLimpieza">
+    <Key>
+      <PropertyRef Name="idEmpleadoLimpieza" />
+    </Key>
+    <Property Name="idEmpleadoLimpieza" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Dni" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="PlanillaLimpieza">
+    <Key>
+      <PropertyRef Name="IdPlanillaLimpieza" />
+    </Key>
+    <Property Name="IdPlanillaLimpieza" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdEmpleadoLimpieza" Type="Int32" />
+    <Property Name="IdHabitacion" Type="Int32" />
+    <Property Name="FechaCarga" Type="DateTime" Precision="3" />
+    <Property Name="EstaAsignada" Type="Boolean" />
+  </EntityType>
+  <EntityContainer Name="SGHEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="EmpleadoLimpieza" EntityType="Self.EmpleadoLimpieza" />
+    <EntitySet Name="PlanillaLimpieza" EntityType="Self.PlanillaLimpieza" />
+    <EntitySet Name="Habitacion" EntityType="SGHModel.Habitacion" />
+    <EntitySet Name="VistaPlanillaLimpieza" EntityType="SGHModel.VistaPlanillaLimpieza" />
+    <EntitySet Name="HabitacionesLimpieza" EntityType="SGHModel.HabitacionesLimpieza" />
+  </EntityContainer>
+  <EntityType Name="Habitacion">
+    <Key>
+      <PropertyRef Name="IdHabitacion" />
+    </Key>
+    <Property Name="IdHabitacion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Numero" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CodTipoHabitacion" Type="Int32" />
+    <Property Name="CodCategoriaHabitacion" Type="Int32" />
+    <Property Name="Precio" Type="Int32" />
+    <Property Name="EstadoHabitacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="VistaPlanillaLimpieza">
+    <Key>
+      <PropertyRef Name="IdPlanillaLimpieza" />
+    </Key>
+    <Property Name="IdPlanillaLimpieza" Type="Int32" Nullable="false" />
+    <Property Name="Numero" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FechaCarga" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="HabitacionesLimpieza">
+    <Key>
+      <PropertyRef Name="IdHabitacion" />
+    </Key>
+    <Property Name="IdHabitacion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Numero" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="EstadoHabitacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+</Schema>

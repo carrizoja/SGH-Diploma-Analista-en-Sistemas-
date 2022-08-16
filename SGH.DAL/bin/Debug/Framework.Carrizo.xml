@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Framework.Carrizo</name>
+    </assembly>
+    <members>
+        <member name="T:Framework.Carrizo.Encriptadores.Encriptador">
+            <summary>
+            Clase encargada de los diferentes tipos de encriptaciones
+            </summary>
+        </member>
+        <member name="M:Framework.Carrizo.Encriptadores.Encriptador.Encriptar(System.String)">
+            <summary>
+            Encriptars the specified palabra a encriptar.
+            </summary>
+            <param name="palabraAEncriptar">The palabra a encriptar.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Framework.Carrizo.Encriptadores.Encriptador.Desencriptar(System.String)">
+            <summary>
+            Desencriptars the specified palabra a encriptar.
+            </summary>
+            <param name="palabraAEncriptar">The palabra a encriptar.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Framework.Carrizo.Encriptadores.Encriptador.RealizarMd5Hash(System.Security.Cryptography.MD5,System.String)">
+            <summary>
+            Realizars the MD5 hash.
+            </summary>
+            <param name="md5Hash">The MD5 hash.</param>
+            <param name="input">The input.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Framework.Carrizo.Encriptadores.Encriptador.VerificarMd5Hash(System.Security.Cryptography.MD5,System.String,System.String)">
+            <summary>
+            Verificars the MD5 hash.
+            </summary>
+            <param name="md5Hash">The MD5 hash.</param>
+            <param name="input">The input.</param>
+            <param name="hash">The hash.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Framework.Carrizo.Persistencia.IConnection">
+            <summary>
+            Interface iConnection utilizada para acceder a la BD
+            </summary>
+        </member>
+        <member name="M:Framework.Carrizo.Persistencia.IConnection.ConexionFinalizar">
+            <summary>
+            Finaliza la conexión
+            </summary>
+        </member>
+        <member name="M:Framework.Carrizo.Persistencia.IConnection.TransaccionIniciar">
+            <summary>
+            Inicia transacción
+            </summary>
+        </member>
+        <member name="M:Framework.Carrizo.Persistencia.IConnection.TransaccionAceptar">
+            <summary>
+            Acepta la transacción
+            </summary>
+        </member>
+        <member name="M:Framework.Carrizo.Persistencia.IConnection.TransaccionCancelar">
+            <summary>
+            Cancela la transacción
+            </summary>
+        </member>
+        <member name="M:Framework.Carrizo.Persistencia.IConnection.NuevaConexion(System.String)">
+            <summary>
+            Nueva  conexion.
+            </summary>
+            <param name="conexion">The conexion.</param>
+        </member>
+        <member name="M:Framework.Carrizo.Persistencia.IConnection.EjecutarSinResultado(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Ejecuta  sin resultado.
+            </summary>
+            <param name="consulta">The consulta.</param>
+            <param name="parametros">The parametros.</param>
+        </member>
+        <member name="M:Framework.Carrizo.Persistencia.IConnection.EjecutarEscalar(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Ejecutar el escalar.
+            </summary>
+            <param name="consulta">The consulta.</param>
+            <param name="parametros">The parametros.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Framework.Carrizo.Persistencia.IConnection.EjecutarTupla``1(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Ejecuta tupla.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="consulta">The consulta.</param>
+            <param name="parametros">The parametros.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Framework.Carrizo.Persistencia.SqlServerConnection">
+            <summary>
+            Interfaz utilizada para la conexión a Sql Server
+            </summary>
+            <seealso cref="T:Framework.Carrizo.Persistencia.IConnection" />
+        </member>
+        <member name="M:Framework.Carrizo.Persistencia.SqlServerConnection.ConexionFinalizar">
+            <summary>
+            Finaliza la conexión
+            </summary>
+        </member>
+        <member name="M:Framework.Carrizo.Persistencia.SqlServerConnection.EjecutarEscalar(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Ejecutar el escalar.
+            </summary>
+            <param name="consulta">The consulta.</param>
+            <param name="parametros">The parametros.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Framework.Carrizo.Persistencia.SqlServerConnection.EjecutarSinResultado(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Ejecuta  sin resultado.
+            </summary>
+            <param name="consulta">The consulta.</param>
+            <param name="parametros">The parametros.</param>
+        </member>
+        <member name="M:Framework.Carrizo.Persistencia.SqlServerConnection.EjecutarSinResultadoDVV(System.String)">
+            <summary>
+            Ejecuta sin resultado DVV.
+            </summary>
+            <param name="consulta">The consulta.</param>
+        </member>
+        <member name="M:Framework.Carrizo.Persistencia.SqlServerConnection.EjecutarTupla``1(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Ejecuta tupla.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="consulta">The consulta.</param>
+            <param name="parametros">The parametros.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Framework.Carrizo.Persistencia.SqlServerConnection.NuevaConexion(System.String)">
+            <summary>
+            Nueva conexion.
+            </summary>
+            <param name="connection">The connection.</param>
+        </member>
+        <member name="M:Framework.Carrizo.Persistencia.SqlServerConnection.TransaccionAceptar">
+            <summary>
+            Acepta la transacción
+            </summary>
+        </member>
+        <member name="M:Framework.Carrizo.Persistencia.SqlServerConnection.TransaccionCancelar">
+            <summary>
+            Cancela la transacción
+            </summary>
+        </member>
+        <member name="M:Framework.Carrizo.Persistencia.SqlServerConnection.TransaccionIniciar">
+            <summary>
+            Inicia transacción
+            </summary>
+        </member>
+        <member name="T:Framework.Carrizo.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Framework.Carrizo.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Framework.Carrizo.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

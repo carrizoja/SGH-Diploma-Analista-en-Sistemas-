@@ -1,0 +1,999 @@
+<?xml version="1.0"?>
+<ArrayOfBitacoraDatos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-28T00:23:31.843</Fecha>
+    <Descripcion>Se realizó un check-In de la reserva numero 28</Descripcion>
+    <Formulario>CheckIn</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-26T17:26:18.903</Fecha>
+    <Descripcion>Se realizó un check-In de la reserva numero 26</Descripcion>
+    <Formulario>CheckIn</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-26T17:25:43.423</Fecha>
+    <Descripcion>Se modificó una reserva</Descripcion>
+    <Formulario>FrmAdministracionDeReservas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-25T21:44:12.167</Fecha>
+    <Descripcion>Se realizó un check-In de la reserva numero 31</Descripcion>
+    <Formulario>CheckIn</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-25T21:43:17.81</Fecha>
+    <Descripcion>Se modificó una reserva</Descripcion>
+    <Formulario>FrmAdministracionDeReservas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-23T17:09:36.937</Fecha>
+    <Descripcion>Se realizó un check-In de la reserva numero 30</Descripcion>
+    <Formulario>CheckIn</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-23T16:49:41.333</Fecha>
+    <Descripcion>Cancelación de Reserva</Descripcion>
+    <Formulario>FrmAdministracionDeReservas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-23T16:43:10.25</Fecha>
+    <Descripcion>Se modificó una reserva</Descripcion>
+    <Formulario>FrmAdministracionDeReservas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-23T16:43:04.387</Fecha>
+    <Descripcion>Se modificó una reserva</Descripcion>
+    <Formulario>FrmAdministracionDeReservas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-23T16:42:16.193</Fecha>
+    <Descripcion>Cancelación de Reserva</Descripcion>
+    <Formulario>FrmAdministracionDeReservas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-23T16:42:10.833</Fecha>
+    <Descripcion>Cancelación de Reserva</Descripcion>
+    <Formulario>FrmAdministracionDeReservas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-23T16:42:04.09</Fecha>
+    <Descripcion>Cancelación de Reserva</Descripcion>
+    <Formulario>FrmAdministracionDeReservas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-23T16:38:31.31</Fecha>
+    <Descripcion>Cancelación de Reserva</Descripcion>
+    <Formulario>FrmAdministracionDeReservas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-23T16:38:24.917</Fecha>
+    <Descripcion>Se modificó una reserva</Descripcion>
+    <Formulario>FrmAdministracionDeReservas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-23T15:49:12.76</Fecha>
+    <Descripcion>Se modificó una reserva</Descripcion>
+    <Formulario>FrmAdministracionDeReservas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-23T15:12:25.837</Fecha>
+    <Descripcion>Cancelación de Reserva</Descripcion>
+    <Formulario>FrmAdministracionDeReservas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-23T15:10:28.177</Fecha>
+    <Descripcion>Se modificó una reserva</Descripcion>
+    <Formulario>FrmAdministracionDeReservas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-23T15:09:33.097</Fecha>
+    <Descripcion>Se modificó una reserva</Descripcion>
+    <Formulario>FrmAdministracionDeReservas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-23T14:41:14.663</Fecha>
+    <Descripcion>Se modificó una reserva</Descripcion>
+    <Formulario>FrmAdministracionDeReservas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-23T14:36:45.847</Fecha>
+    <Descripcion>Se modificó una reserva</Descripcion>
+    <Formulario>FrmAdministracionDeReservas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-23T14:36:23.923</Fecha>
+    <Descripcion>Se modificó una reserva</Descripcion>
+    <Formulario>FrmAdministracionDeReservas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-23T13:54:32.087</Fecha>
+    <Descripcion>Se modificó una reserva</Descripcion>
+    <Formulario>FrmAdministracionDeReservas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-23T13:45:51.037</Fecha>
+    <Descripcion>Index was outside the bounds of the array.</Descripcion>
+    <Formulario>FrmAdministracionDeReservas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-23T13:45:21.297</Fecha>
+    <Descripcion>Index was outside the bounds of the array.</Descripcion>
+    <Formulario>FrmAdministracionDeReservas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-23T13:42:26.84</Fecha>
+    <Descripcion>Se modificó una reserva</Descripcion>
+    <Formulario>FrmAdministracionDeReservas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-23T13:39:01.553</Fecha>
+    <Descripcion>Index was outside the bounds of the array.</Descripcion>
+    <Formulario>FrmAdministracionDeReservas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-23T13:36:35.213</Fecha>
+    <Descripcion>Se modificó una reserva</Descripcion>
+    <Formulario>FrmAdministracionDeReservas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-22T22:24:26.88</Fecha>
+    <Descripcion>Se realizó un check-In de la reserva numero 16</Descripcion>
+    <Formulario>CheckIn</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-22T16:13:00.893</Fecha>
+    <Descripcion>Se realizó un check-In de la reserva numero 13</Descripcion>
+    <Formulario>CheckIn</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-21T19:49:07.233</Fecha>
+    <Descripcion>Se realizó un check-In de la reserva numero 12</Descripcion>
+    <Formulario>CheckIn</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-20T14:01:32.82</Fecha>
+    <Descripcion>Se realizó un check-In de la reserva numero 10</Descripcion>
+    <Formulario>CheckIn</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-20T14:01:01.54</Fecha>
+    <Descripcion>Se realizó un check-In de la reserva numero 11</Descripcion>
+    <Formulario>CheckIn</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-19T20:13:39.953</Fecha>
+    <Descripcion>Eliminación de Servicio Complementario</Descripcion>
+    <Formulario>FrmServicioComplementario</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-19T20:12:43.14</Fecha>
+    <Descripcion>Eliminación de Servicio Complementario</Descripcion>
+    <Formulario>FrmServicioComplementario</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-19T20:12:37.607</Fecha>
+    <Descripcion>Eliminación de Servicio Complementario</Descripcion>
+    <Formulario>FrmServicioComplementario</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-19T19:25:17.197</Fecha>
+    <Descripcion>Input string was not in a correct format.</Descripcion>
+    <Formulario>FrmServicioComplementario</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-19T17:20:02.813</Fecha>
+    <Descripcion>Eliminación de Room Service</Descripcion>
+    <Formulario>FrmRoomService</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-19T16:20:39.647</Fecha>
+    <Descripcion>System.Collections.ListDictionaryInternal</Descripcion>
+    <Formulario>FrmRoomService</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-18T01:49:21.907</Fecha>
+    <Descripcion>Se realizó un check-In de la reserva numero 9</Descripcion>
+    <Formulario>CheckIn</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-18T01:45:19.327</Fecha>
+    <Descripcion>Se realizó un check-In de la reserva numero 7</Descripcion>
+    <Formulario>CheckIn</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-18T01:25:09.227</Fecha>
+    <Descripcion>Se realizó un check-In de la reserva numero 3</Descripcion>
+    <Formulario>CheckIn</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-10-17T21:35:33.67</Fecha>
+    <Descripcion>Se realizó un check-In de la reserva numero 6</Descripcion>
+    <Formulario>CheckIn</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-21T19:21:12.393</Fecha>
+    <Descripcion>Usuario dado de alta</Descripcion>
+    <Formulario>RegistrarUsuario</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-21T17:50:44.18</Fecha>
+    <Descripcion>Se realizó un check-In de la reserva numero 4</Descripcion>
+    <Formulario>CheckIn</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-21T17:49:55.677</Fecha>
+    <Descripcion>Cancelación de Reserva</Descripcion>
+    <Formulario>FrmAdministracionDeReservas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-21T17:49:47.877</Fecha>
+    <Descripcion>Se modificó una reserva</Descripcion>
+    <Formulario>FrmAdministracionDeReservas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-21T17:43:33.643</Fecha>
+    <Descripcion>Se cambio a Ingles</Descripcion>
+    <Formulario>CambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-21T16:51:06.247</Fecha>
+    <Descripcion>Se cambio a Ingles</Descripcion>
+    <Formulario>CambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-21T16:49:55.1</Fecha>
+    <Descripcion>Se cambio a Ingles</Descripcion>
+    <Formulario>CambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-21T16:41:28.067</Fecha>
+    <Descripcion>Se cambio a Ingles</Descripcion>
+    <Formulario>CambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-21T16:36:54.647</Fecha>
+    <Descripcion>Se cambio a Ingles</Descripcion>
+    <Formulario>CambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-21T16:27:46.093</Fecha>
+    <Descripcion>Usuario eliminado</Descripcion>
+    <Formulario>FrmBorrarUsuario</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-16T17:23:14.567</Fecha>
+    <Descripcion>Se cambio a Espanol</Descripcion>
+    <Formulario>CambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-16T17:23:05.573</Fecha>
+    <Descripcion>Se cambio a Ingles</Descripcion>
+    <Formulario>CambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-16T17:19:40.01</Fecha>
+    <Descripcion>Se cambio a Ingles</Descripcion>
+    <Formulario>CambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-16T17:13:32.647</Fecha>
+    <Descripcion>Input string was not in a correct format.</Descripcion>
+    <Formulario>CambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-16T09:37:41.56</Fecha>
+    <Descripcion>Se agregó el idioma Frances al sistema</Descripcion>
+    <Formulario>GUIIdiomas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-16T09:37:11.05</Fecha>
+    <Descripcion>Se agregó el idioma Frances al sistema</Descripcion>
+    <Formulario>GUIIdiomas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-16T09:36:15.363</Fecha>
+    <Descripcion>Se agregó el idioma frances al sistema</Descripcion>
+    <Formulario>GUIIdiomas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-16T09:31:56.477</Fecha>
+    <Descripcion>Se agregó el idioma frances al sistema</Descripcion>
+    <Formulario>GUIIdiomas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-16T09:26:35.633</Fecha>
+    <Descripcion>Se agregó el idioma Frances al sistema</Descripcion>
+    <Formulario>GUIIdiomas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-15T13:53:54.33</Fecha>
+    <Descripcion>Se agregó el idioma Aleman al sistema</Descripcion>
+    <Formulario>GUIIdiomas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-15T13:50:52.417</Fecha>
+    <Descripcion>Se agregó el idioma Italiano al sistema</Descripcion>
+    <Formulario>GUIIdiomas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-15T13:45:55.677</Fecha>
+    <Descripcion>Se agregó el idioma Aleman al sistema</Descripcion>
+    <Formulario>GUIIdiomas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-15T13:44:53.543</Fecha>
+    <Descripcion>Se agregó el idioma Aleman al sistema</Descripcion>
+    <Formulario>GUIIdiomas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-15T12:21:56.07</Fecha>
+    <Descripcion>Eliminación de Habitación</Descripcion>
+    <Formulario>AdministracionHabitaciones</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-15T12:21:23.85</Fecha>
+    <Descripcion>Se realizó un check-In de la reserva numero 1</Descripcion>
+    <Formulario>CheckIn</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-14T20:55:36.657</Fecha>
+    <Descripcion>Eliminación de Reserva</Descripcion>
+    <Formulario>FrmAdministracionDeReservas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-14T20:26:27.73</Fecha>
+    <Descripcion>Se modificó una reserva</Descripcion>
+    <Formulario>FrmAdministracionDeReservas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-14T16:23:26.43</Fecha>
+    <Descripcion>System.Collections.ListDictionaryInternal</Descripcion>
+    <Formulario>FrmAdministracionDeReservas</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-13T21:14:17.793</Fecha>
+    <Descripcion>Eliminación de Habitación</Descripcion>
+    <Formulario>AdministracionHabitaciones</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-13T16:29:06.99</Fecha>
+    <Descripcion>System.Collections.ListDictionaryInternal</Descripcion>
+    <Formulario>AdministracionHabitaciones</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-13T15:37:52.007</Fecha>
+    <Descripcion>System.Collections.ListDictionaryInternal</Descripcion>
+    <Formulario>AdministracionHabitaciones</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-13T14:51:18.44</Fecha>
+    <Descripcion>System.Collections.ListDictionaryInternal</Descripcion>
+    <Formulario>AdministracionHabitaciones</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-13T14:43:41.187</Fecha>
+    <Descripcion>System.Collections.ListDictionaryInternal</Descripcion>
+    <Formulario>AdministracionHabitaciones</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-13T14:43:04.583</Fecha>
+    <Descripcion>System.Collections.ListDictionaryInternal</Descripcion>
+    <Formulario>AdministracionHabitaciones</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-13T14:41:42.663</Fecha>
+    <Descripcion>System.Collections.ListDictionaryInternal</Descripcion>
+    <Formulario>AdministracionHabitaciones</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-13T14:30:44.49</Fecha>
+    <Descripcion>System.Collections.ListDictionaryInternal</Descripcion>
+    <Formulario>AdministracionHabitaciones</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-13T14:23:50.483</Fecha>
+    <Descripcion>System.Collections.ListDictionaryInternal</Descripcion>
+    <Formulario>AdministracionHabitaciones</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-13T13:46:01.053</Fecha>
+    <Descripcion>System.Collections.ListDictionaryInternal</Descripcion>
+    <Formulario>AdministracionHabitaciones</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-13T13:43:13.087</Fecha>
+    <Descripcion>System.Collections.ListDictionaryInternal</Descripcion>
+    <Formulario>AdministracionHabitaciones</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-13T13:38:21.063</Fecha>
+    <Descripcion>System.Collections.ListDictionaryInternal</Descripcion>
+    <Formulario>AdministracionHabitaciones</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-09T10:52:05.447</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-08T02:21:25.873</Fecha>
+    <Descripcion>Permiso Agregado con éxito</Descripcion>
+    <Formulario>Roles</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-08T02:21:17.987</Fecha>
+    <Descripcion>Permiso Agregado con éxito</Descripcion>
+    <Formulario>Roles</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-08T00:58:39.403</Fecha>
+    <Descripcion>Usuario dado de alta</Descripcion>
+    <Formulario>RegistrarUsuario</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-08T00:30:17.413</Fecha>
+    <Descripcion>Usuario dado de alta</Descripcion>
+    <Formulario>RegistrarUsuario</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-07T23:53:45.403</Fecha>
+    <Descripcion>Usuario dado de alta</Descripcion>
+    <Formulario>RegistrarUsuario</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-07T22:01:19.673</Fecha>
+    <Descripcion>Usuario eliminado</Descripcion>
+    <Formulario>FrmBorrarUsuario</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-07T21:05:20.957</Fecha>
+    <Descripcion>Usuario eliminado</Descripcion>
+    <Formulario>FrmBorrarUsuario</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-07T21:05:09.803</Fecha>
+    <Descripcion>Usuario eliminado</Descripcion>
+    <Formulario>FrmBorrarUsuario</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-07T21:05:06.36</Fecha>
+    <Descripcion>Usuario eliminado</Descripcion>
+    <Formulario>FrmBorrarUsuario</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-09-07T21:05:04.06</Fecha>
+    <Descripcion>Usuario eliminado</Descripcion>
+    <Formulario>FrmBorrarUsuario</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-31T22:45:18.01</Fecha>
+    <Descripcion>Se cambio a español</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-31T22:45:16.33</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-31T18:19:53.827</Fecha>
+    <Descripcion>Usuario dado de alta</Descripcion>
+    <Formulario>RegistrarUsuario</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-31T17:16:32.603</Fecha>
+    <Descripcion>Usuario dado de alta</Descripcion>
+    <Formulario>RegistrarUsuario</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-31T17:11:00.667</Fecha>
+    <Descripcion>Usuario dado de alta</Descripcion>
+    <Formulario>RegistrarUsuario</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-31T15:20:21.377</Fecha>
+    <Descripcion>Usuario eliminado</Descripcion>
+    <Formulario>FrmBorrarUsuario</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-31T15:20:18.313</Fecha>
+    <Descripcion>Usuario eliminado</Descripcion>
+    <Formulario>FrmBorrarUsuario</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-31T15:19:17.363</Fecha>
+    <Descripcion>Usuario eliminado</Descripcion>
+    <Formulario>FrmBorrarUsuario</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-31T15:18:58.19</Fecha>
+    <Descripcion>Usuario eliminado</Descripcion>
+    <Formulario>FrmBorrarUsuario</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-31T14:52:07.73</Fecha>
+    <Descripcion>There is already an open DataReader associated with this Command which must be closed first.</Descripcion>
+    <Formulario>FrmRegistrarCliente</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-31T14:39:19.467</Fecha>
+    <Descripcion>There is already an open DataReader associated with this Command which must be closed first.</Descripcion>
+    <Formulario>FrmRegistrarCliente</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-31T14:39:08.983</Fecha>
+    <Descripcion>There is already an open DataReader associated with this Command which must be closed first.</Descripcion>
+    <Formulario>FrmRegistrarCliente</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-31T09:50:49.663</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-19T22:52:41.107</Fecha>
+    <Descripcion>Se cambio a español</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-19T22:52:34.523</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-19T22:50:26.543</Fecha>
+    <Descripcion>Se cambio a español</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-19T22:49:59.823</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-19T22:47:39.097</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-19T22:46:58.517</Fecha>
+    <Descripcion>Se cambio a español</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-19T22:46:56.79</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-19T22:46:36.35</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-19T22:41:07.947</Fecha>
+    <Descripcion>Se cambio a español</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-19T22:40:58.71</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-19T22:36:01.273</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-19T22:34:26.28</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-19T22:31:35.78</Fecha>
+    <Descripcion>Se cambio a español</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-19T22:31:15.867</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-19T22:27:26.017</Fecha>
+    <Descripcion>Se cambio a español</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-19T22:27:23.37</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-19T22:26:41.997</Fecha>
+    <Descripcion>Se cambio a español</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-19T22:26:25.813</Fecha>
+    <Descripcion>Se cambio a español</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-19T22:26:23.127</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-17T21:08:05.54</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-17T21:06:24.683</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-17T20:41:37.917</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-17T20:40:10.78</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-17T20:03:37.6</Fecha>
+    <Descripcion>Permiso Agregado con éxito</Descripcion>
+    <Formulario>Roles</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-17T19:54:10.463</Fecha>
+    <Descripcion>Permiso Agregado con éxito</Descripcion>
+    <Formulario>Roles</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-17T19:53:51.367</Fecha>
+    <Descripcion>Permiso Agregado con éxito</Descripcion>
+    <Formulario>Roles</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-17T19:15:49.327</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-17T18:48:00.907</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-17T18:46:04.51</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-17T18:46:02.19</Fecha>
+    <Descripcion>Se cambio a español</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-17T18:45:49.58</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-17T18:31:50.957</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-17T18:30:00.567</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-17T18:29:55.927</Fecha>
+    <Descripcion>Se cambio a español</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-17T18:29:28.317</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-17T18:24:10.657</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-17T18:20:05.34</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-17T18:19:59.963</Fecha>
+    <Descripcion>Se cambio a español</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-17T18:19:57.947</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-17T18:19:05.43</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-17T18:16:24.563</Fecha>
+    <Descripcion>Usuario dado de alta</Descripcion>
+    <Formulario>RegistrarUsuario</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-17T18:00:57.687</Fecha>
+    <Descripcion>Se cambio a español</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-17T18:00:29.08</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-17T17:43:24.097</Fecha>
+    <Descripcion>Object reference not set to an instance of an object.</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2020-08-17T15:21:17.52</Fecha>
+    <Descripcion>Usuario eliminado</Descripcion>
+    <Formulario>FrmBorrarUsuario</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2019-05-30T19:07:47.553</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2019-05-30T00:14:54.23</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2019-05-22T01:05:31.017</Fecha>
+    <Descripcion>Permiso Agregado con éxito</Descripcion>
+    <Formulario>FrmRoles</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2019-05-22T00:48:32.087</Fecha>
+    <Descripcion>Permiso Agregado con éxito</Descripcion>
+    <Formulario>FrmRoles</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2019-05-22T00:44:07.783</Fecha>
+    <Descripcion>Usuario modificado exitosamente</Descripcion>
+    <Formulario>FrmModificarUsuario</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2019-05-22T00:39:42.727</Fecha>
+    <Descripcion>Usuario dado de alta</Descripcion>
+    <Formulario>RegistrarUsuario</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2019-05-22T00:37:12.317</Fecha>
+    <Descripcion>Usuario dado de alta</Descripcion>
+    <Formulario>RegistrarUsuario</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2019-05-21T22:14:12.623</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2019-05-21T22:13:56.17</Fecha>
+    <Descripcion>Se cambio a español</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2019-05-21T22:13:37.56</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2019-05-21T21:44:50.063</Fecha>
+    <Descripcion>This SqlTransaction has completed; it is no longer usable.</Descripcion>
+    <Formulario>FrmRoles</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2019-05-21T21:22:19.81</Fecha>
+    <Descripcion>Usuario dado de alta</Descripcion>
+    <Formulario>RegistrarUsuario</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2019-05-21T20:14:45.65</Fecha>
+    <Descripcion>Usuario dado de alta</Descripcion>
+    <Formulario>RegistrarUsuario</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2019-05-21T20:03:19.013</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+  <BitacoraDatos>
+    <Usuario>Jose Carrizo</Usuario>
+    <Fecha>2019-05-21T19:54:42.89</Fecha>
+    <Descripcion>Se cambio a ingles</Descripcion>
+    <Formulario>FrmCambiarIdioma</Formulario>
+  </BitacoraDatos>
+</ArrayOfBitacoraDatos>

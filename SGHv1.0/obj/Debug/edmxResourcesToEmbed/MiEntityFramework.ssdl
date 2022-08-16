@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SGHModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="EmpleadoLimpieza">
+    <Key>
+      <PropertyRef Name="idEmpleadoLimpieza" />
+    </Key>
+    <Property Name="idEmpleadoLimpieza" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" />
+    <Property Name="Dni" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="PlanillaLimpieza">
+    <Key>
+      <PropertyRef Name="IdPlanillaLimpieza" />
+    </Key>
+    <Property Name="IdPlanillaLimpieza" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdEmpleadoLimpieza" Type="int" />
+    <Property Name="IdHabitacion" Type="int" />
+    <Property Name="Observaciones" Type="varchar" MaxLength="150" />
+  </EntityType>
+  <EntityContainer Name="SGHModelStoreContainer">
+    <EntitySet Name="EmpleadoLimpieza" EntityType="Self.EmpleadoLimpieza" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PlanillaLimpieza" EntityType="Self.PlanillaLimpieza" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

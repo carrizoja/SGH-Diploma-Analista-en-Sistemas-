@@ -1,0 +1,9 @@
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\Framework.Carrizo\bin\Release\Framework.Carrizo.dll.config
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\Framework.Carrizo\bin\Release\Framework.Carrizo.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\Framework.Carrizo\bin\Release\Framework.Carrizo.pdb
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\Framework.Carrizo\obj\Release\Framework.Carrizo.Properties.Resources.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\Framework.Carrizo\obj\Release\Framework.Carrizo.csproj.GenerateResource.cache
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\Framework.Carrizo\obj\Release\Framework.Carrizo.csproj.CoreCompileInputs.cache
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\Framework.Carrizo\obj\Release\Framework.Carrizo.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\Framework.Carrizo\obj\Release\Framework.Carrizo.pdb
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\Framework.Carrizo\bin\Release\Persistencia\Data\SGH.mdf

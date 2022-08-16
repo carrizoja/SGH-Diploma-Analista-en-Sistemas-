@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SGHModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="EmpleadoLimpieza">
+    <Key>
+      <PropertyRef Name="idEmpleadoLimpieza" />
+    </Key>
+    <Property Name="idEmpleadoLimpieza" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" />
+    <Property Name="Dni" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Habitacion">
+    <Key>
+      <PropertyRef Name="IdHabitacion" />
+    </Key>
+    <Property Name="IdHabitacion" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Numero" Type="varchar" MaxLength="20" />
+    <Property Name="CodTipoHabitacion" Type="int" />
+    <Property Name="CodCategoriaHabitacion" Type="int" />
+    <Property Name="Precio" Type="int" />
+    <Property Name="EstadoHabitacion" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="PlanillaLimpieza">
+    <Key>
+      <PropertyRef Name="IdPlanillaLimpieza" />
+    </Key>
+    <Property Name="IdPlanillaLimpieza" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdEmpleadoLimpieza" Type="int" />
+    <Property Name="IdHabitacion" Type="int" />
+    <Property Name="FechaCarga" Type="datetime" />
+    <Property Name="EstaAsignada" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'SGH.dbo.HabitacionesLimpieza' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="HabitacionesLimpieza">
+    <Key>
+      <PropertyRef Name="IdHabitacion" />
+    </Key>
+    <Property Name="IdHabitacion" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Numero" Type="varchar" MaxLength="20" />
+    <Property Name="EstadoHabitacion" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'SGH.dbo.VistaPlanillaLimpieza' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="VistaPlanillaLimpieza">
+    <Key>
+      <PropertyRef Name="IdPlanillaLimpieza" />
+    </Key>
+    <Property Name="IdPlanillaLimpieza" Type="int" Nullable="false" />
+    <Property Name="Numero" Type="varchar" MaxLength="20" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" />
+    <Property Name="FechaCarga" Type="datetime" />
+  </EntityType>
+  <EntityContainer Name="SGHModelStoreContainer">
+    <EntitySet Name="EmpleadoLimpieza" EntityType="Self.EmpleadoLimpieza" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Habitacion" EntityType="Self.Habitacion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PlanillaLimpieza" EntityType="Self.PlanillaLimpieza" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HabitacionesLimpieza" EntityType="Self.HabitacionesLimpieza" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [HabitacionesLimpieza].[IdHabitacion] AS [IdHabitacion], 
+    [HabitacionesLimpieza].[Numero] AS [Numero], 
+    [HabitacionesLimpieza].[EstadoHabitacion] AS [EstadoHabitacion]
+    FROM [dbo].[HabitacionesLimpieza] AS [HabitacionesLimpieza]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="VistaPlanillaLimpieza" EntityType="Self.VistaPlanillaLimpieza" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [VistaPlanillaLimpieza].[IdPlanillaLimpieza] AS [IdPlanillaLimpieza], 
+    [VistaPlanillaLimpieza].[Numero] AS [Numero], 
+    [VistaPlanillaLimpieza].[Nombre] AS [Nombre], 
+    [VistaPlanillaLimpieza].[FechaCarga] AS [FechaCarga]
+    FROM [dbo].[VistaPlanillaLimpieza] AS [VistaPlanillaLimpieza]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

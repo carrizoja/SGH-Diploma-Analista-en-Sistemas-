@@ -1,0 +1,666 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AE8BB6BF-A581-4109-825C-7A5046EC2C8D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SGHv1._0</RootNamespace>
+    <AssemblyName>SGHv1.0</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\SGHv1.0.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>SGHv1._0.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.6.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.6.1\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapper, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.2.0.35\lib\net461\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v19.1.Core, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.2, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.2\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=13.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.ConnectionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Smo, Version=13.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.Smo.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Administrador\FrmBackupRestore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\FrmBackupRestore.Designer.cs">
+      <DependentUpon>FrmBackupRestore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Bitacora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\Bitacora.Designer.cs">
+      <DependentUpon>Bitacora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\FrmBorrarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\FrmBorrarUsuario.Designer.cs">
+      <DependentUpon>FrmBorrarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\FrmListadoBackupHistorico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\FrmListadoBackupHistorico.Designer.cs">
+      <DependentUpon>FrmListadoBackupHistorico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\FrmlistarUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\FrmlistarUsuarios.Designer.cs">
+      <DependentUpon>FrmlistarUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\FrmModificarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\FrmModificarUsuario.Designer.cs">
+      <DependentUpon>FrmModificarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\GestionDeCambios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\GestionDeCambios.Designer.cs">
+      <DependentUpon>GestionDeCambios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\GUIIdiomas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\GUIIdiomas.Designer.cs">
+      <DependentUpon>GUIIdiomas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Roles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\Roles.Designer.cs">
+      <DependentUpon>Roles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\RegistrarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\RegistrarUsuario.Designer.cs">
+      <DependentUpon>RegistrarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsCuentas\FrmVerEstadoCuentaHabitaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsCuentas\FrmVerEstadoCuentaHabitaciones.Designer.cs">
+      <DependentUpon>FrmVerEstadoCuentaHabitaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsHabitacion\AdministracionHabitaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsHabitacion\AdministracionHabitaciones.Designer.cs">
+      <DependentUpon>AdministracionHabitaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsReservas\AdministracionDeReservas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsReservas\AdministracionDeReservas.Designer.cs">
+      <DependentUpon>AdministracionDeReservas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\CambiarIdioma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\CambiarIdioma.Designer.cs">
+      <DependentUpon>CambiarIdioma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsReservas\CheckIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsReservas\CheckIn.Designer.cs">
+      <DependentUpon>CheckIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsServicios\FrmCargarServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsServicios\FrmCargarServicio.Designer.cs">
+      <DependentUpon>FrmCargarServicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsServicios\FrmRoomService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsServicios\FrmRoomService.Designer.cs">
+      <DependentUpon>FrmRoomService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsServicios\FrmServicioComplementario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsServicios\FrmServicioComplementario.Designer.cs">
+      <DependentUpon>FrmServicioComplementario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\FrmMenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\FrmMenuPrincipal.Designer.cs">
+      <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsCliente\FrmModificarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsCliente\FrmModificarCliente.Designer.cs">
+      <DependentUpon>FrmModificarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsCliente\FrmRegistrarBaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsCliente\FrmRegistrarBaja.Designer.cs">
+      <DependentUpon>FrmRegistrarBaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsCliente\FrmRegistrarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsCliente\FrmRegistrarCliente.Designer.cs">
+      <DependentUpon>FrmRegistrarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LimpiezaHabitaciones\EmpleadoLimpieza.cs">
+      <DependentUpon>MiEntityFramework.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LimpiezaHabitaciones\GestionLimpiezaHabitaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LimpiezaHabitaciones\GestionLimpiezaHabitaciones.Designer.cs">
+      <DependentUpon>GestionLimpiezaHabitaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LimpiezaHabitaciones\Habitacion.cs">
+      <DependentUpon>MiEntityFramework.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LimpiezaHabitaciones\HabitacionesLimpieza.cs">
+      <DependentUpon>MiEntityFramework.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LimpiezaHabitaciones\MiEntityFramework.Context.cs">
+      <DependentUpon>MiEntityFramework.Context.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="LimpiezaHabitaciones\MiEntityFramework.cs">
+      <DependentUpon>MiEntityFramework.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="LimpiezaHabitaciones\MiEntityFramework.Designer.cs">
+      <DependentUpon>MiEntityFramework.edmx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="LimpiezaHabitaciones\PlanillaLimpieza.cs">
+      <DependentUpon>MiEntityFramework.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LimpiezaHabitaciones\VistaPlanillaLimpieza.cs">
+      <DependentUpon>MiEntityFramework.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FormsCliente\ListarClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsCliente\ListarClientes.Designer.cs">
+      <DependentUpon>ListarClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reportes\GananciasGeneradas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\GananciasGeneradas.Designer.cs">
+      <DependentUpon>GananciasGeneradas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SGHDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SGHDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SGHDataSetPalabra.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SGHDataSetPalabra.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Administrador\FrmBackupRestore.resx">
+      <DependentUpon>FrmBackupRestore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\Bitacora.resx">
+      <DependentUpon>Bitacora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\FrmBorrarUsuario.resx">
+      <DependentUpon>FrmBorrarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\FrmListadoBackupHistorico.resx">
+      <DependentUpon>FrmListadoBackupHistorico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\FrmlistarUsuarios.resx">
+      <DependentUpon>FrmlistarUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\FrmModificarUsuario.resx">
+      <DependentUpon>FrmModificarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\GestionDeCambios.resx">
+      <DependentUpon>GestionDeCambios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\GUIIdiomas.resx">
+      <DependentUpon>GUIIdiomas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\Roles.resx">
+      <DependentUpon>Roles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\RegistrarUsuario.resx">
+      <DependentUpon>RegistrarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsCuentas\FrmVerEstadoCuentaHabitaciones.resx">
+      <DependentUpon>FrmVerEstadoCuentaHabitaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsHabitacion\AdministracionHabitaciones.resx">
+      <DependentUpon>AdministracionHabitaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsReservas\AdministracionDeReservas.resx">
+      <DependentUpon>AdministracionDeReservas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\CambiarIdioma.resx">
+      <DependentUpon>CambiarIdioma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsReservas\CheckIn.resx">
+      <DependentUpon>CheckIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsServicios\FrmCargarServicio.resx">
+      <DependentUpon>FrmCargarServicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsServicios\FrmRoomService.resx">
+      <DependentUpon>FrmRoomService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsServicios\FrmServicioComplementario.resx">
+      <DependentUpon>FrmServicioComplementario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\FrmMenuPrincipal.resx">
+      <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsCliente\FrmModificarCliente.resx">
+      <DependentUpon>FrmModificarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsCliente\FrmRegistrarBaja.resx">
+      <DependentUpon>FrmRegistrarBaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsCliente\FrmRegistrarCliente.resx">
+      <DependentUpon>FrmRegistrarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LimpiezaHabitaciones\GestionLimpiezaHabitaciones.resx">
+      <DependentUpon>GestionLimpiezaHabitaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsCliente\ListarClientes.resx">
+      <DependentUpon>ListarClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Reportes\GananciasGeneradas.resx">
+      <DependentUpon>GananciasGeneradas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EntityDeploy Include="LimpiezaHabitaciones\MiEntityFramework.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>MiEntityFramework.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="LimpiezaHabitaciones\MiEntityFramework.edmx.diagram">
+      <DependentUpon>MiEntityFramework.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SGHDataSet.xsc">
+      <DependentUpon>SGHDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SGHDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SGHDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SGHDataSet.xss">
+      <DependentUpon>SGHDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SGHDataSetPalabra.xsc">
+      <DependentUpon>SGHDataSetPalabra.xsd</DependentUpon>
+    </None>
+    <None Include="SGHDataSetPalabra.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SGHDataSetPalabra.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SGHDataSetPalabra.xss">
+      <DependentUpon>SGHDataSetPalabra.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Framework.Carrizo\Framework.Carrizo.csproj">
+      <Project>{3f5d2e76-b6c0-4807-96a9-af48d26ec0f3}</Project>
+      <Name>Framework.Carrizo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SGH.BE\SGH.BE.csproj">
+      <Project>{9b2ec22c-9f69-46a5-9e0a-a14e4eb1adaa}</Project>
+      <Name>SGH.BE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SGH.BLL\SGH.BLL.csproj">
+      <Project>{82eccb73-831c-42ed-804d-78e828169b41}</Project>
+      <Name>SGH.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SGH.DAL\SGH.DAL.csproj">
+      <Project>{1e197fba-d033-44a8-92f4-e79748a10438}</Project>
+      <Name>SGH.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SGH.Servicios\SGH.Servicios.csproj">
+      <Project>{f5d61857-e429-458e-b1df-1653c2eedbd2}</Project>
+      <Name>SGH.Servicios</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sysresort.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SYSBlanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SYSBlanco1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\idioma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\borrarUsuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addUser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modifyUser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clientes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clientes2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clientes3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bajaCliente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modificarCliente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bitacora.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auditoria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sleep_umbrella_vacation_icon-icons.com_51082.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sombrilla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clean.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clean1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clean2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clean21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modify1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clean22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_image2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modify2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clean23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_image3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modify3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check_in.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_image9.png" />
+    <None Include="Resources\exit11.png" />
+    <None Include="Resources\exit10.png" />
+    <None Include="Resources\clean26.png" />
+    <None Include="Resources\apply.png" />
+    <None Include="Resources\clean25.png" />
+    <None Include="Resources\pdf1.png" />
+    <None Include="Resources\exit9.png" />
+    <None Include="Resources\check.png" />
+    <None Include="Resources\sign-out-option_icon-icons.com_73413.png" />
+    <None Include="Resources\clean24.png" />
+    <None Include="Resources\exit8.png" />
+    <None Include="Resources\1486071980-1_79325.png" />
+    <None Include="Resources\1486505264-food-fork-kitchen-knife-meanns-restaurant_81404 %281%29.png" />
+    <None Include="Resources\1486505264-food-fork-kitchen-knife-meanns-restaurant_81404.png" />
+    <None Include="Resources\exit7.png" />
+    <None Include="Resources\add_image8.png" />
+    <None Include="Resources\exit6.png" />
+    <None Include="Resources\remove10.png" />
+    <None Include="Resources\modify5.png" />
+    <None Include="Resources\add_image7.png" />
+    <None Include="Resources\add_image6.png" />
+    <None Include="Resources\remove9.png" />
+    <None Include="Resources\modify4.png" />
+    <None Include="Resources\add_image5.png" />
+    <None Include="Resources\refresh.png" />
+    <None Include="Resources\exit5.png" />
+    <None Include="Resources\remove8.png" />
+    <None Include="Resources\add_image4.png" />
+    <None Include="Resources\cleaning_16813.png" />
+    <None Include="Resources\cleaning.png" />
+    <None Include="Resources\remove7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LimpiezaHabitaciones\MiEntityFramework.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>MiEntityFramework.edmx</DependentUpon>
+      <LastGenOutput>MiEntityFramework.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="LimpiezaHabitaciones\MiEntityFramework.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>MiEntityFramework.edmx</DependentUpon>
+      <LastGenOutput>MiEntityFramework.cs</LastGenOutput>
+    </Content>
+    <None Include="Resources\exit14.png" />
+    <None Include="Resources\exit13.png" />
+    <None Include="Resources\remove11.png" />
+    <None Include="Resources\apply2.png" />
+    <None Include="Resources\exit12.png" />
+    <None Include="Resources\modify6.png" />
+    <None Include="Resources\apply1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

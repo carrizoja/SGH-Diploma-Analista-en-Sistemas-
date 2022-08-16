@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SGH.BE</name>
+    </assembly>
+    <members>
+        <member name="T:SGH.BE.Consumo">
+            <summary>Clase de Entidad de Negocio perteneciente a Consumo</summary>
+        </member>
+        <member name="T:SGH.BE.RoomService">
+            <summary>
+            Clase de Entidad de negocio perteneciente a Room Service
+            </summary>
+            <seealso cref="T:SGH.BE.Servicio" />
+        </member>
+        <member name="T:SGH.BE.CategoriaHabitacion">
+            <summary>
+            Clase Entidad de Negocio de la Categoria de Habitación
+            </summary>
+        </member>
+        <member name="T:SGH.BE.Cliente">
+            <summary>
+            Clase de Entidad de Negocio perteneciente a Cliente
+            </summary>
+        </member>
+        <member name="T:SGH.BE.Cuenta">
+            <summary>
+            Clase de Entidad de Negocio perteneciente a Cuenta
+            </summary>
+        </member>
+        <member name="T:SGH.BE.Habitacion">
+            <summary>
+            Clase de Entidad de Negocio perteneciente a Habitación
+            </summary>
+        </member>
+        <member name="T:SGH.BE.Reserva">
+            <summary>
+            Clase de Entidad de Negocio perteneciente a Reserva
+            </summary>
+        </member>
+        <member name="T:SGH.BE.Servicio">
+            <summary>
+            Clase Entidad de Negocio perteneciente a Servicio
+            </summary>
+        </member>
+        <member name="T:SGH.BE.ServicioComplementario">
+            <summary>
+            Clase de Entidad de Negocio perteneciente a Servicio
+            </summary>
+            <seealso cref="T:SGH.BE.Servicio" />
+        </member>
+        <member name="T:SGH.BE.TipoHabitacion">
+            <summary>
+            Clase de Entidad de Negocio perteneciente a Tipo de Habitación
+            </summary>
+        </member>
+        <member name="T:SGH.BE.Vistas.CuentaObtenida">
+            <summary>
+            Clase perteneciente a la Vista Cuenta Obtenida
+            </summary>
+        </member>
+        <member name="T:SGH.BE.Vistas.GcambiosDeleteVista">
+            <summary>
+            Vista perteneciente a la eliminación en gestión de Cambios
+            </summary>
+        </member>
+        <member name="T:SGH.BE.Vistas.GcambiosTodosVista">
+            <summary>
+            Vista que muestra todos los resultados en Gestión de Cambios
+            </summary>
+        </member>
+        <member name="T:SGH.BE.Vistas.ListaDeConsumosVista">
+            <summary>
+            Vista que muestra todos los consumos
+            </summary>
+        </member>
+        <member name="T:SGH.BE.Vistas.ReservaObtenida">
+            <summary>
+            Vista que muestra una reserva Obtenida
+            </summary>
+        </member>
+        <member name="T:SGH.BE.Vistas.ReservaVista">
+            <summary>
+            La vista principal de la Reserva
+            </summary>
+        </member>
+        <member name="T:SGH.BE.Vistas.RoomServiceVista">
+            <summary>
+            Vista de un Room Service
+            </summary>
+        </member>
+        <member name="T:SGH.BE.Vistas.ServicioComplementarioVista">
+            <summary>
+            Vista de un servicio Complementario
+            </summary>
+        </member>
+        <member name="T:SGH.BE.Vistas.TipoServicio">
+            <summary>
+            Vista de un tipo de Servicio
+            </summary>
+        </member>
+        <member name="T:SGH.BE.Vistas.VistaReporteReserva">
+            <summary>
+            Vista de un reporte de Reservas
+            </summary>
+        </member>
+        <member name="T:SGH.BE.Vistas.VistaReservaCuenta">
+            <summary>
+            Vista de Reserva - Cuenta
+            </summary>
+        </member>
+        <member name="T:SGH.BE.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:SGH.BE.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:SGH.BE.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,386 @@
+c:\users\koche\source\repos\SGHv1.0\SGHv1.0\bin\Debug\SGHv1.0.exe.config
+c:\users\koche\source\repos\SGHv1.0\SGHv1.0\bin\Debug\SGHv1.0.exe
+c:\users\koche\source\repos\SGHv1.0\SGHv1.0\bin\Debug\SGHv1.0.pdb
+c:\users\koche\source\repos\SGHv1.0\SGHv1.0\obj\Debug\SGH.GUI.csprojResolveAssemblyReference.cache
+c:\users\koche\source\repos\SGHv1.0\SGHv1.0\obj\Debug\SGHv1._0.Properties.Resources.resources
+c:\users\koche\source\repos\SGHv1.0\SGHv1.0\obj\Debug\SGH.GUI.csproj.GenerateResource.cache
+c:\users\koche\source\repos\SGHv1.0\SGHv1.0\obj\Debug\SGH.GUI.csproj.CoreCompileInputs.cache
+c:\users\koche\source\repos\SGHv1.0\SGHv1.0\obj\Debug\SGHv1.0.exe
+c:\users\koche\source\repos\SGHv1.0\SGHv1.0\obj\Debug\SGHv1.0.pdb
+C:\Users\koche\Google Drive\UAI\Diploma\Diploma 2019\SGH al 16-4-19\SGHv1.0_19-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGH.GUI.csprojResolveAssemblyReference.cache
+C:\Users\koche\Google Drive\UAI\Diploma\Diploma 2019\SGH al 16-4-19\SGHv1.0_19-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1._0.Properties.Resources.resources
+C:\Users\koche\Google Drive\UAI\Diploma\Diploma 2019\SGH al 16-4-19\SGHv1.0_19-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGH.GUI.csproj.GenerateResource.Cache
+C:\Users\koche\Google Drive\UAI\Diploma\Diploma 2019\SGH al 16-4-19\SGHv1.0_19-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGH.GUI.csproj.CoreCompileInputs.cache
+C:\Users\koche\Google Drive\UAI\Diploma\Diploma 2019\SGH al 16-4-19\SGHv1.0_19-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1.0.exe
+C:\Users\koche\Google Drive\UAI\Diploma\Diploma 2019\SGH al 16-4-19\SGHv1.0_19-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1.0.pdb
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGHv1.0.exe.config
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGHv1.0.exe
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGHv1.0.pdb
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\Framework.Carrizo.dll
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.BE.dll
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.BLL.dll
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.DAL.dll
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.Servicios.dll
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\Framework.Carrizo.pdb
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\Framework.Carrizo.dll.config
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.BE.pdb
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.BE.dll.config
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.BLL.pdb
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.BLL.dll.config
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.DAL.pdb
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.DAL.dll.config
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.Servicios.pdb
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.Servicios.dll.config
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGH.GUI.csprojResolveAssemblyReference.cache
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1._0.FrmLogin.resources
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1._0.FrmMenuPrincipal.resources
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1._0.Properties.Resources.resources
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGH.GUI.csproj.GenerateResource.Cache
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGH.GUI.csproj.CoreCompileInputs.cache
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1.0.exe
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1.0.pdb
+C:\Users\koche\Desktop\SGHv1.0_22-4-19-20190422T213830Z-001\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmBackupRestore.resources
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGHv1.0.exe.config
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGHv1.0.exe
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGHv1.0.pdb
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\Framework.Carrizo.dll
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.BE.dll
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.BLL.dll
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.DAL.dll
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.Servicios.dll
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\Framework.Carrizo.pdb
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\Framework.Carrizo.dll.config
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.BE.pdb
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.BE.dll.config
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.BLL.pdb
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.BLL.dll.config
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.DAL.pdb
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.DAL.dll.config
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.Servicios.pdb
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.Servicios.dll.config
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGH.GUI.csprojResolveAssemblyReference.cache
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmBackupRestore.resources
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1._0.FrmLogin.resources
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1._0.FrmMenuPrincipal.resources
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1._0.Properties.Resources.resources
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGH.GUI.csproj.GenerateResource.cache
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGH.GUI.csproj.CoreCompileInputs.cache
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGH.GUI.csproj.CopyComplete
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1.0.exe
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1.0.pdb
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmBitacora.resources
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0_22-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmListadoBackupHistorico.resources
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGHv1.0.exe.config
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGHv1.0.exe
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGHv1.0.pdb
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\bin\Debug\Framework.Carrizo.dll
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.BE.dll
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.BLL.dll
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.DAL.dll
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.Servicios.dll
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\bin\Debug\Framework.Carrizo.pdb
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\bin\Debug\Framework.Carrizo.dll.config
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.BE.pdb
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.BE.dll.config
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.BLL.pdb
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.BLL.dll.config
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.DAL.pdb
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.DAL.dll.config
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.Servicios.pdb
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\bin\Debug\SGH.Servicios.dll.config
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGH.GUI.csprojResolveAssemblyReference.cache
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmBackupRestore.resources
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmBitacora.resources
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmListadoBackupHistorico.resources
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1._0.FrmLogin.resources
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1._0.FrmMenuPrincipal.resources
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1._0.Properties.Resources.resources
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGH.GUI.csproj.GenerateResource.Cache
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGH.GUI.csproj.CoreCompileInputs.cache
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1.0.exe
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1.0.pdb
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1._0.FrmCambiarIdioma.resources
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1._0.Administrador.RegistrarUsuario.resources
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmBorrarUsuario.resources
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmModificarUsuario.resources
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmlistarUsuarios.resources
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmRol.resources
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmRoles.resources
+C:\Users\koche\Desktop\SGHv1.0_30-4-19\SGHv1.0_30-4-19\SGHv1.0\SGHv1.0\obj\Debug\SGH.GUI.csproj.CopyComplete
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\bin\Debug\SGHv1.0.exe.config
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\bin\Debug\SGHv1.0.exe
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\bin\Debug\SGHv1.0.pdb
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\bin\Debug\Framework.Carrizo.dll
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\bin\Debug\SGH.BE.dll
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\bin\Debug\SGH.BLL.dll
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\bin\Debug\SGH.DAL.dll
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\bin\Debug\SGH.Servicios.dll
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\bin\Debug\Framework.Carrizo.pdb
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\bin\Debug\Framework.Carrizo.dll.config
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\bin\Debug\SGH.BE.pdb
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\bin\Debug\SGH.BE.dll.config
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\bin\Debug\SGH.BLL.pdb
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\bin\Debug\SGH.BLL.dll.config
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\bin\Debug\SGH.DAL.pdb
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\bin\Debug\SGH.DAL.dll.config
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\bin\Debug\SGH.Servicios.pdb
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\bin\Debug\SGH.Servicios.dll.config
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\obj\Debug\SGH.GUI.csprojResolveAssemblyReference.cache
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmBackupRestore.resources
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmBitacora.resources
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmBorrarUsuario.resources
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmListadoBackupHistorico.resources
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmlistarUsuarios.resources
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmModificarUsuario.resources
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmRol.resources
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmRoles.resources
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.RegistrarUsuario.resources
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\obj\Debug\SGHv1._0.FrmCambiarIdioma.resources
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\obj\Debug\SGHv1._0.FrmLogin.resources
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\obj\Debug\SGHv1._0.FrmMenuPrincipal.resources
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\obj\Debug\SGHv1._0.Properties.Resources.resources
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\obj\Debug\SGH.GUI.csproj.GenerateResource.Cache
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\obj\Debug\SGH.GUI.csproj.CoreCompileInputs.cache
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\obj\Debug\SGHv1.0.exe
+C:\Users\koche\Desktop\SGHv1.0_8_5_19\SGHv1.0\obj\Debug\SGHv1.0.pdb
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\bin\Debug\SGHv1.0.exe.config
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\bin\Debug\SGHv1.0.exe
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\bin\Debug\SGHv1.0.pdb
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\bin\Debug\Framework.Carrizo.dll
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\bin\Debug\SGH.BE.dll
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\bin\Debug\SGH.BLL.dll
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\bin\Debug\SGH.DAL.dll
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\bin\Debug\SGH.Servicios.dll
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\bin\Debug\Framework.Carrizo.pdb
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\bin\Debug\Framework.Carrizo.dll.config
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\bin\Debug\SGH.BE.pdb
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\bin\Debug\SGH.BE.dll.config
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\bin\Debug\SGH.BLL.pdb
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\bin\Debug\SGH.BLL.dll.config
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\bin\Debug\SGH.DAL.pdb
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\bin\Debug\SGH.DAL.dll.config
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\bin\Debug\SGH.Servicios.pdb
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\bin\Debug\SGH.Servicios.dll.config
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\obj\Debug\SGH.GUI.csprojResolveAssemblyReference.cache
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmBackupRestore.resources
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmBitacora.resources
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmBorrarUsuario.resources
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmListadoBackupHistorico.resources
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmlistarUsuarios.resources
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmModificarUsuario.resources
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmRol.resources
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmRoles.resources
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.RegistrarUsuario.resources
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\obj\Debug\SGHv1._0.FrmCambiarIdioma.resources
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\obj\Debug\SGHv1._0.FrmLogin.resources
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\obj\Debug\SGHv1._0.FrmMenuPrincipal.resources
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\obj\Debug\SGHv1._0.Properties.Resources.resources
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\obj\Debug\SGH.GUI.csproj.GenerateResource.cache
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\obj\Debug\SGH.GUI.csproj.CoreCompileInputs.cache
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\obj\Debug\SGH.GUI.csproj.CopyComplete
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\obj\Debug\SGHv1.0.exe
+C:\Users\koche\Desktop\SGHv1.0_15_5_19\SGHv1.0\obj\Debug\SGHv1.0.pdb
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\bin\Debug\SGHv1.0.exe.config
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\bin\Debug\SGHv1.0.exe
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\bin\Debug\SGHv1.0.pdb
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\bin\Debug\Framework.Carrizo.dll
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\bin\Debug\SGH.BE.dll
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\bin\Debug\SGH.BLL.dll
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\bin\Debug\SGH.DAL.dll
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\bin\Debug\SGH.Servicios.dll
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\bin\Debug\Framework.Carrizo.pdb
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\bin\Debug\Framework.Carrizo.dll.config
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\bin\Debug\SGH.BE.pdb
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\bin\Debug\SGH.BE.dll.config
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\bin\Debug\SGH.BLL.pdb
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\bin\Debug\SGH.BLL.dll.config
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\bin\Debug\SGH.DAL.pdb
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\bin\Debug\SGH.DAL.dll.config
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\bin\Debug\SGH.Servicios.pdb
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\bin\Debug\SGH.Servicios.dll.config
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmBackupRestore.resources
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmBitacora.resources
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmBorrarUsuario.resources
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmListadoBackupHistorico.resources
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmlistarUsuarios.resources
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmModificarUsuario.resources
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmRol.resources
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmRoles.resources
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.RegistrarUsuario.resources
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\obj\Debug\SGHv1._0.FrmCambiarIdioma.resources
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\obj\Debug\SGHv1._0.FrmLogin.resources
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\obj\Debug\SGHv1._0.FrmMenuPrincipal.resources
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\obj\Debug\SGHv1._0.Properties.Resources.resources
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\obj\Debug\SGH.GUI.csproj.GenerateResource.cache
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\obj\Debug\SGH.GUI.csproj.CoreCompileInputs.cache
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\obj\Debug\SGH.GUI.csproj.CopyComplete
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\obj\Debug\SGHv1.0.exe
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\obj\Debug\SGHv1.0.pdb
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\obj\Debug\SGHv1._0.FrmRegistrarCliente.resources
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\obj\Debug\SGHv1._0.FrmRegistrarBaja.resources
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\obj\Debug\SGHv1._0.FrmModificarCliente.resources
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\obj\Debug\SGHv1._0.ListarClientes.resources
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\obj\Debug\SGH.GUI.csprojAssemblyReference.cache
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\obj\Debug\SGHv1._0.FormsHabitacion.FrmListarHabitacionesDisponibles.resources
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\obj\Debug\SGHv1._0.FormsHabitacion.FrmModCategoriaHabitacion.resources
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\obj\Debug\SGHv1._0.FormsHabitacion.FrmAltaCategoriaHabitacion.resources
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\obj\Debug\SGHv1._0.FormsReservas.FrmCargarReserva.resources
+C:\Users\koche\Desktop\SGHv1.0_29_5_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmRolesTreeView.resources
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGHv1.0.exe.config
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGHv1.0.exe
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGHv1.0.pdb
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\Framework.Carrizo.dll
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGH.BE.dll
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGH.BLL.dll
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGH.DAL.dll
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGH.Servicios.dll
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\Framework.Carrizo.pdb
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\Framework.Carrizo.dll.config
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGH.BE.pdb
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGH.BE.dll.config
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGH.BLL.pdb
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGH.BLL.dll.config
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGH.DAL.pdb
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGH.DAL.dll.config
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGH.Servicios.pdb
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGH.Servicios.dll.config
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGH.GUI.csprojAssemblyReference.cache
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmBackupRestore.resources
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmBitacora.resources
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmBorrarUsuario.resources
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmListadoBackupHistorico.resources
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmlistarUsuarios.resources
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmModificarUsuario.resources
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmRol.resources
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmRoles.resources
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmRolesTreeView.resources
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.RegistrarUsuario.resources
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.FormsReservas.FrmCargarReserva.resources
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.FrmCambiarIdioma.resources
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.FrmLogin.resources
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.FrmMenuPrincipal.resources
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.FrmModificarCliente.resources
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.FrmRegistrarBaja.resources
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.FrmRegistrarCliente.resources
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.FormsHabitacion.FrmListarHabitacionesDisponibles.resources
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.FormsHabitacion.FrmModCategoriaHabitacion.resources
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.FormsHabitacion.FrmAltaCategoriaHabitacion.resources
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.ListarClientes.resources
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.Properties.Resources.resources
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGH.GUI.csproj.GenerateResource.cache
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGH.GUI.csproj.CoreCompileInputs.cache
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGH.GUI.csproj.CopyComplete
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1.0.exe
+C:\Users\koche\Desktop\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1.0.pdb
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmBackupRestore.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.Bitacora.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmBorrarUsuario.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmListadoBackupHistorico.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmlistarUsuarios.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.FrmModificarUsuario.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.GestionDeCambios.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.GUIIdiomas.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.Roles.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.Administrador.RegistrarUsuario.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.FormsCuentas.FrmVerEstadoCuentaHabitaciones.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.FormsHabitacion.AdministracionHabitaciones.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.FormsReservas.FrmAdministracionDeReservas.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.CambiarIdioma.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.FormsReservas.CheckIn.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.FormsServicios.FrmCargarServicio.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.FormsServicios.FrmRoomService.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.FormsServicios.FrmServicioComplementario.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.FrmLogin.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.FrmMenuPrincipal.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.FrmModificarCliente.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.FrmRegistrarBaja.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.FrmRegistrarCliente.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.LimpiezaHabitaciones.GestionLimpiezaHabitaciones.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.ListarClientes.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.Properties.Resources.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1._0.Reportes.GananciasGeneradas.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGH.GUI.csproj.GenerateResource.cache
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1.0.exe.licenses
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGH.GUI.csproj.CoreCompileInputs.cache
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGHv1.0.exe.config
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGHv1.0.exe
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGHv1.0.pdb
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\BouncyCastle.Crypto.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\EntityFramework.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\EntityFramework.SqlServer.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\Framework.Carrizo.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\itextsharp.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGH.BE.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGH.BLL.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGH.DAL.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGH.Servicios.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\Framework.Carrizo.pdb
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\Framework.Carrizo.dll.config
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGH.BE.pdb
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGH.BE.dll.config
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGH.BLL.pdb
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGH.BLL.dll.config
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGH.DAL.pdb
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGH.DAL.dll.config
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGH.Servicios.pdb
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGH.Servicios.dll.config
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\DevExpress.Data.v19.1.xml
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\DevExpress.Printing.v19.1.Core.xml
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\DevExpress.Utils.v19.1.xml
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\DevExpress.XtraEditors.v19.1.xml
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\DevExpress.XtraLayout.v19.1.xml
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\EntityFramework.xml
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\EntityFramework.SqlServer.xml
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\itextsharp.xml
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\de\DevExpress.Printing.v19.1.Core.resources.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\es\DevExpress.Printing.v19.1.Core.resources.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\ja\DevExpress.Printing.v19.1.Core.resources.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\ru\DevExpress.Printing.v19.1.Core.resources.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\de\DevExpress.Sparkline.v19.1.Core.resources.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\es\DevExpress.Sparkline.v19.1.Core.resources.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\ja\DevExpress.Sparkline.v19.1.Core.resources.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\ru\DevExpress.Sparkline.v19.1.Core.resources.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\de\DevExpress.Utils.v19.1.resources.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\es\DevExpress.Utils.v19.1.resources.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\ja\DevExpress.Utils.v19.1.resources.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\ru\DevExpress.Utils.v19.1.resources.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\de\DevExpress.XtraEditors.v19.1.resources.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\es\DevExpress.XtraEditors.v19.1.resources.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\ja\DevExpress.XtraEditors.v19.1.resources.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\ru\DevExpress.XtraEditors.v19.1.resources.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\de\DevExpress.XtraLayout.v19.1.resources.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\es\DevExpress.XtraLayout.v19.1.resources.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\ja\DevExpress.XtraLayout.v19.1.resources.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\ru\DevExpress.XtraLayout.v19.1.resources.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\de\DevExpress.Pdf.v19.1.Core.resources.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGH.GUI.csproj.CopyComplete
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1.0.exe
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGHv1.0.pdb
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\Newtonsoft.Json.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\Newtonsoft.Json.xml
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGHv1.0.xml
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\Framework.Carrizo.xml
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGH.BE.xml
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGH.BLL.xml
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGH.DAL.xml
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\SGH.Servicios.xml
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\Persistencia\Data\SGH.mdf
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\Dapper.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\Dapper.xml
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\Microsoft.SqlServer.Smo.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\Microsoft.SqlServer.Dmf.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGHv1.0\obj\Debug\SGH.GUI.csproj.AssemblyReference.cache

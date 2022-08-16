@@ -1,0 +1,17 @@
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.Servicios\bin\Release\SGH.Servicios.dll.config
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.Servicios\bin\Release\SGH.Servicios.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.Servicios\bin\Release\SGH.Servicios.pdb
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.Servicios\bin\Release\Framework.Carrizo.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.Servicios\bin\Release\SGH.BE.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.Servicios\bin\Release\Framework.Carrizo.pdb
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.Servicios\bin\Release\Framework.Carrizo.dll.config
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.Servicios\bin\Release\SGH.BE.pdb
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.Servicios\bin\Release\SGH.BE.dll.config
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.Servicios\obj\Release\SGH.Servicios.csprojAssemblyReference.cache
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.Servicios\obj\Release\SGH.Servicios.Properties.Resources.resources
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.Servicios\obj\Release\SGH.Servicios.csproj.GenerateResource.cache
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.Servicios\obj\Release\SGH.Servicios.csproj.CoreCompileInputs.cache
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.Servicios\obj\Release\SGH.Servicios.csproj.CopyComplete
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.Servicios\obj\Release\SGH.Servicios.dll
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.Servicios\obj\Release\SGH.Servicios.pdb
+E:\UAI\Diploma 2020\Jose Carrizo\SGHv1.0_18_6_19\SGH.Servicios\bin\Release\Persistencia\Data\SGH.mdf

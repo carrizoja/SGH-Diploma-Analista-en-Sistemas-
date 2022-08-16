@@ -1,0 +1,2605 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SGHv1.0</name>
+    </assembly>
+    <members>
+        <member name="T:SGHv1._0.Administrador.FrmBackupRestore">
+            <summary>
+            Form para realizar el Backup / Restore
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+            <seealso cref="T:SGH.BE.Observer.IObserver" />
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmBackupRestore.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SGHv1._0.Administrador.FrmBackupRestore"/> class.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmBackupRestore.btnBuscar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnBuscar control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmBackupRestore.btnHacerBackup_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnHacerBackup control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmBackupRestore.FrmBackupRestore_Load(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Load event of the FrmBackupRestore control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmBackupRestore.Actualizar">
+            <summary>
+            Actualiza this instance.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmBackupRestore.CambiarIdiomaUsandoObserver">
+            <summary>
+            Cambia idioma usando observer.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmBackupRestore.FrmBackupRestore_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+            <summary>
+            Handles the FormClosing event of the FrmBackupRestore control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Forms.FormClosingEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmBackupRestore.btnRuta_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnRuta control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmBackupRestore.btnRestaurar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnRestaurar control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:SGHv1._0.Administrador.FrmBackupRestore.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmBackupRestore.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmBackupRestore.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.Administrador.Bitacora">
+            <summary>
+            Form de la Bitácora
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+            <seealso cref="T:SGH.BE.Observer.IObserver" />
+        </member>
+        <member name="M:SGHv1._0.Administrador.Bitacora.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SGHv1._0.Administrador.Bitacora"/> class.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.Bitacora.Actualizar">
+            <summary>
+            Actualiza instance.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.Bitacora.CambiarIdiomaUsandoObserver">
+            <summary>
+            Cambia idioma usando observer.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.Bitacora.FrmBitacora_Load(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Load event of the FrmBitacora control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.Bitacora.FrmBitacora_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+            <summary>
+            Handles the FormClosing event of the FrmBitacora control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Forms.FormClosingEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.Bitacora.btnLimpiar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnLimpiar control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.Bitacora.btnSalir_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnSalir control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.Bitacora.dtpHasta_CloseUp(System.Object,System.EventArgs)">
+            <summary>
+            Handles the CloseUp event of the dtpHasta control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.Bitacora.cmbFormulario_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the SelectedIndexChanged event of the cmbFormulario control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.Bitacora.cmbUsuarios_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the SelectedIndexChanged event of the cmbUsuarios control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.Bitacora.btnFiltrar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnFiltrar control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.Bitacora.traerCombos">
+            <summary>
+            Trae combos.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.Bitacora.limpiarCombos">
+            <summary>
+            Limpia combos.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.Bitacora.btnRuta_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnRuta control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.Bitacora.btnSerializar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnSerializar control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.Bitacora.btnDeserializar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnDeserializar control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:SGHv1._0.Administrador.Bitacora.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.Bitacora.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.Bitacora.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.Administrador.FrmBorrarUsuario">
+            <summary>
+            Form para borrar un Usuario
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+            <seealso cref="T:SGH.BE.Observer.IObserver" />
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmBorrarUsuario.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SGHv1._0.Administrador.FrmBorrarUsuario"/> class.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmBorrarUsuario.FrmBorrarUsuario_Load(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Load event of the FrmBorrarUsuario control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmBorrarUsuario.listBorrarUsuario_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the SelectedIndexChanged event of the listBorrarUsuario control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmBorrarUsuario.btnBorrarUsuario_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnBorrarUsuario control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmBorrarUsuario.Actualizar">
+            <summary>
+            Actualiza this instance.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmBorrarUsuario.CambiarIdiomaUsandoObserver">
+            <summary>
+            Cambia idioma usando observer.
+            </summary>
+        </member>
+        <member name="F:SGHv1._0.Administrador.FrmBorrarUsuario.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmBorrarUsuario.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmBorrarUsuario.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.Administrador.FrmListadoBackupHistorico">
+            <summary>
+            Form que muestra el listado histórico de los backups
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+            <seealso cref="T:SGH.BE.Observer.IObserver" />
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmListadoBackupHistorico.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SGHv1._0.Administrador.FrmListadoBackupHistorico"/> class.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmListadoBackupHistorico.Actualizar">
+            <summary>
+            Actualiza this instance.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmListadoBackupHistorico.CambiarIdiomaUsandoObserver">
+            <summary>
+            Cambia idioma usando observer.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmListadoBackupHistorico.FrmListadoBackupHistorico_Load(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Load event of the FrmListadoBackupHistorico control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmListadoBackupHistorico.FromListView(System.Windows.Forms.ListView)">
+            <summary>
+            Froms the ListView.
+            </summary>
+            <param name="lvw">The LVW.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmListadoBackupHistorico.btnGenerarReporte_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnGenerarReporte control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmListadoBackupHistorico.btnGenerarReporte_Click_1(System.Object,System.EventArgs)">
+            <summary>
+            Handles the 1 event of the btnGenerarReporte_Click control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:SGHv1._0.Administrador.FrmListadoBackupHistorico.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmListadoBackupHistorico.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmListadoBackupHistorico.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.Administrador.FrmlistarUsuarios">
+            <summary>
+            Form para listar Usuarios
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+            <seealso cref="T:SGH.BE.Observer.IObserver" />
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmlistarUsuarios.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SGHv1._0.Administrador.FrmlistarUsuarios"/> class.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmlistarUsuarios.Actualizar">
+            <summary>
+            Actualiza instance.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmlistarUsuarios.CambiarIdiomaUsandoObserver">
+            <summary>
+            Cambia idioma usando observer.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmlistarUsuarios.FrmlistarUsuarios_Load(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Load event of the FrmlistarUsuarios control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:SGHv1._0.Administrador.FrmlistarUsuarios.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmlistarUsuarios.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmlistarUsuarios.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.Administrador.FrmModificarUsuario">
+            <summary>
+            Formulario para modificar el Usuario
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+            <seealso cref="T:SGH.BE.Observer.IObserver" />
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmModificarUsuario.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SGHv1._0.Administrador.FrmModificarUsuario"/> class.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmModificarUsuario.FrmModificarUsuario_Load(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Load event of the FrmModificarUsuario control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmModificarUsuario.btnRecuperarUsuario_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnRecuperarUsuario control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmModificarUsuario.txtDniUsuarioATraer_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the TextChanged event of the txtDniUsuarioATraer control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmModificarUsuario.btnModificarUsuario_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnModificarUsuario control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmModificarUsuario.Actualizar">
+            <summary>
+            Actualizars this instance.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmModificarUsuario.CambiarIdiomaUsandoObserver">
+            <summary>
+            Cambiars the idioma usando observer.
+            </summary>
+        </member>
+        <member name="F:SGHv1._0.Administrador.FrmModificarUsuario.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmModificarUsuario.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.FrmModificarUsuario.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.Administrador.GestionDeCambios">
+            <summary>
+            Formulario para la Gestión de Cambios
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+            <seealso cref="T:SGH.BE.Observer.IObserver" />
+        </member>
+        <member name="M:SGHv1._0.Administrador.GestionDeCambios.Actualizar">
+            <summary>
+            Actualiza instance.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.GestionDeCambios.CambiarIdiomaUsandoObserver">
+            <summary>
+            Cambia idioma usando observer.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.GestionDeCambios.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SGHv1._0.Administrador.GestionDeCambios"/> class.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.GestionDeCambios.btnAplicar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnAplicar control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.GestionDeCambios.btnLimpiar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnLimpiar control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:SGHv1._0.Administrador.GestionDeCambios.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.GestionDeCambios.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.GestionDeCambios.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.Administrador.GUIIdiomas">
+            <summary>
+            Formulario para el ABM de idiomas
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+            <seealso cref="T:SGH.BE.Observer.IObserver" />
+        </member>
+        <member name="M:SGHv1._0.Administrador.GUIIdiomas.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SGHv1._0.Administrador.GUIIdiomas"/> class.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.GUIIdiomas.Actualizar">
+            <summary>
+            Actualizars this instance.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.GUIIdiomas.CambiarIdiomaUsandoObserver">
+            <summary>
+            Cambia idioma usando observer.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.GUIIdiomas.btnSalir_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnSalir control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.GUIIdiomas.GUIIdiomas_Load(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Load event of the GUIIdiomas control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.GUIIdiomas.comboBox1_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the SelectedIndexChanged event of the comboBox1 control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.GUIIdiomas.btnAgregarIdioma_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnAgregarIdioma control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.GUIIdiomas.dataGridView1_CellContentClick_1(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+            <summary>
+            Handles the 1 event of the dataGridView1_CellContentClick control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Forms.DataGridViewCellEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.GUIIdiomas.dataGridView1_CellContentClick_2(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+            <summary>
+            Handles the 2 event of the dataGridView1_CellContentClick control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Forms.DataGridViewCellEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.GUIIdiomas.btnModificarTraduccion_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnModificarTraduccion control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.GUIIdiomas.btnModificarPalabra_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnModificarPalabra control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.GUIIdiomas.btnAgregarTraduccion_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnAgregarTraduccion control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.GUIIdiomas.btnEliminarTraduccion_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnEliminarTraduccion control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.GUIIdiomas.btnBorrarIdioma_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnBorrarIdioma control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.GUIIdiomas.btnAgregarPalabra_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnAgregarPalabra control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.GUIIdiomas.btnRefrescar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnRefrescar control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.GUIIdiomas.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the button1 control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.GUIIdiomas.btnEliminarPalabra_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnEliminarPalabra control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:SGHv1._0.Administrador.GUIIdiomas.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.GUIIdiomas.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.GUIIdiomas.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.Administrador.Roles">
+            <summary>
+            Formulario para la asignación de Roles y permisos
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+            <seealso cref="T:SGH.BE.Observer.IObserver" />
+        </member>
+        <member name="M:SGHv1._0.Administrador.Roles.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SGHv1._0.Administrador.Roles"/> class.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.Roles.FrmRoles_Load(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Load event of the FrmRoles control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.Roles.bntAceptar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the bntAceptar control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.Roles.Actualizar">
+            <summary>
+            Actualiza this instance.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.Roles.CambiarIdiomaUsandoObserver">
+            <summary>
+            Cambiars the idioma usando observer.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.Roles.txtAgregarPermisoSimple_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the txtAgregarPermisoSimple control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.Roles.comboBoxPermisosCompuestos_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the SelectedIndexChanged event of the comboBoxPermisosCompuestos control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.Roles.btnCambioRolusuario_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnCambioRolusuario control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:SGHv1._0.Administrador.Roles.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.Roles.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.Roles.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.Administrador.RegistrarUsuario">
+            <summary>
+            Formulario que permite registrar un Usuario
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+            <seealso cref="T:SGH.BE.Observer.IObserver" />
+        </member>
+        <member name="M:SGHv1._0.Administrador.RegistrarUsuario.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SGHv1._0.Administrador.RegistrarUsuario"/> class.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.RegistrarUsuario.RegistrarUsuario_Load(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Load event of the RegistrarUsuario control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.RegistrarUsuario.btnAceptar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnAceptar control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.RegistrarUsuario.IsValidEmail(System.String)">
+            <summary>
+            Determines whether [is valid email] [the specified string in].
+            </summary>
+            <param name="strIn">The string in.</param>
+            <returns>
+              <c>true</c> if [is valid email] [the specified string in]; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:SGHv1._0.Administrador.RegistrarUsuario.Actualizar">
+            <summary>
+            Actualizars this instance.
+            </summary>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:SGHv1._0.Administrador.RegistrarUsuario.FrmRegistrarUsuario_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+            <summary>
+            Handles the FormClosing event of the FrmRegistrarUsuario control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Forms.FormClosingEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.RegistrarUsuario.btnSalir_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnSalir control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:SGHv1._0.Administrador.RegistrarUsuario.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Administrador.RegistrarUsuario.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SGHv1._0.Administrador.RegistrarUsuario.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.FormsCuentas.FrmVerEstadoCuentaHabitaciones">
+            <summary>
+             Formulario para ver el estado de la cuenta de cada Habitación
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+            <seealso cref="T:SGH.BE.Observer.IObserver" />
+        </member>
+        <member name="M:SGHv1._0.FormsCuentas.FrmVerEstadoCuentaHabitaciones.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SGHv1._0.FormsCuentas.FrmVerEstadoCuentaHabitaciones"/> class.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FormsCuentas.FrmVerEstadoCuentaHabitaciones.Actualizar">
+            <summary>
+            Actualizars this instance.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FormsCuentas.FrmVerEstadoCuentaHabitaciones.CambiarIdiomaUsandoObserver">
+            <summary>
+            Cambiars the idioma usando observer.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FormsCuentas.FrmVerEstadoCuentaHabitaciones.btnSalir_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnSalir control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsCuentas.FrmVerEstadoCuentaHabitaciones.FrmVerEstadoCuentaHabitaciones_Load(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Load event of the FrmVerEstadoCuentaHabitaciones control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsCuentas.FrmVerEstadoCuentaHabitaciones.cmbHabitaciones_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the SelectedIndexChanged event of the cmbHabitaciones control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsCuentas.FrmVerEstadoCuentaHabitaciones.btnConsultarConsumos_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnConsultarConsumos control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsCuentas.FrmVerEstadoCuentaHabitaciones.btnRealizarCheckOut_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnRealizarCheckOut control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsCuentas.FrmVerEstadoCuentaHabitaciones.LimpiarFormulario">
+            <summary>
+            Limpia formulario.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FormsCuentas.FrmVerEstadoCuentaHabitaciones.btnLimpiar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnLimpiar control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:SGHv1._0.FormsCuentas.FrmVerEstadoCuentaHabitaciones.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FormsCuentas.FrmVerEstadoCuentaHabitaciones.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsCuentas.FrmVerEstadoCuentaHabitaciones.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.FormsHabitacion.AdministracionHabitaciones">
+            <summary>
+            Formulario para la Administración de las Habitaciones
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+            <seealso cref="T:SGH.BE.Observer.IObserver" />
+        </member>
+        <member name="M:SGHv1._0.FormsHabitacion.AdministracionHabitaciones.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SGHv1._0.FormsHabitacion.AdministracionHabitaciones"/> class.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FormsHabitacion.AdministracionHabitaciones.AdministracionHabitaciones_Load(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Load event of the AdministracionHabitaciones control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsHabitacion.AdministracionHabitaciones.LimpiarFormulario">
+            <summary>
+            Limpia formulario.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FormsHabitacion.AdministracionHabitaciones.Actualizar">
+            <summary>
+            Actualiza this instance.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FormsHabitacion.AdministracionHabitaciones.CambiarIdiomaUsandoObserver">
+            <summary>
+            Cambiar idioma usando observer.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FormsHabitacion.AdministracionHabitaciones.btnAgregarNuevaHabitacion_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnAgregarNuevaHabitacion control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsHabitacion.AdministracionHabitaciones.cmbTipoHabitacion_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the SelectedIndexChanged event of the cmbTipoHabitacion control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsHabitacion.AdministracionHabitaciones.btnLimpiarCampos_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnLimpiarCampos control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsHabitacion.AdministracionHabitaciones.btnEditar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnEditar control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsHabitacion.AdministracionHabitaciones.btnEliminarHabitacion_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnEliminarHabitacion control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsHabitacion.AdministracionHabitaciones.dgvHabitaciones_CellContentClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+            <summary>
+            Handles the CellContentClick event of the dgvHabitaciones control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Forms.DataGridViewCellEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsHabitacion.AdministracionHabitaciones.btnSalir_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnSalir control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:SGHv1._0.FormsHabitacion.AdministracionHabitaciones.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FormsHabitacion.AdministracionHabitaciones.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsHabitacion.AdministracionHabitaciones.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.FormsReservas.FrmAdministracionDeReservas">
+            <summary>
+            Formulario para la administración de las Reservas
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+            <seealso cref="T:SGH.BE.Observer.IObserver" />
+        </member>
+        <member name="M:SGHv1._0.FormsReservas.FrmAdministracionDeReservas.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SGHv1._0.FormsReservas.FrmAdministracionDeReservas"/> class.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FormsReservas.FrmAdministracionDeReservas.Actualizar">
+            <summary>
+            Actualiza this instance.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FormsReservas.FrmAdministracionDeReservas.CambiarIdiomaUsandoObserver">
+            <summary>
+            Cambia idioma usando observer.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FormsReservas.FrmAdministracionDeReservas.FrmCargarReserva_Load(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Load event of the FrmCargarReserva control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsReservas.FrmAdministracionDeReservas.LimpiarFormulario">
+            <summary>
+            Limpia formulario.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FormsReservas.FrmAdministracionDeReservas.dtpFechaEgreso_CloseUp(System.Object,System.EventArgs)">
+            <summary>
+            Handles the CloseUp event of the dtpFechaEgreso control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsReservas.FrmAdministracionDeReservas.btnCargarReserva_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnCargarReserva control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsReservas.FrmAdministracionDeReservas.btnEditar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnEditar control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsReservas.FrmAdministracionDeReservas.dgvReservas_CellContentClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+            <summary>
+            Handles the CellContentClick event of the dgvReservas control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Forms.DataGridViewCellEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsReservas.FrmAdministracionDeReservas.btnEliminar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnEliminar control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsReservas.FrmAdministracionDeReservas.ComprobarOcupacion">
+            <summary>
+            Comprobar ocupacion.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SGHv1._0.FormsReservas.FrmAdministracionDeReservas.ComprobarOcupacionModificar">
+            <summary>
+            Comprobar ocupacion modificar.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SGHv1._0.FormsReservas.FrmAdministracionDeReservas.btnSalir_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnSalir control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsReservas.FrmAdministracionDeReservas.dtpFechaIngreso_ValueChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the ValueChanged event of the dtpFechaIngreso control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:SGHv1._0.FormsReservas.FrmAdministracionDeReservas.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FormsReservas.FrmAdministracionDeReservas.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsReservas.FrmAdministracionDeReservas.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.FormsReservas.CheckIn">
+            <summary>
+            Formulario para realizar el Check-In
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+            <seealso cref="T:SGH.BE.Observer.IObserver" />
+        </member>
+        <member name="M:SGHv1._0.FormsReservas.CheckIn.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SGHv1._0.FormsReservas.CheckIn"/> class.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FormsReservas.CheckIn.Actualizar">
+            <summary>
+            Actualizars this instance.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FormsReservas.CheckIn.CambiarIdiomaUsandoObserver">
+            <summary>
+            Cambiars the idioma usando observer.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FormsReservas.CheckIn.CheckIn_Load(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Load event of the CheckIn control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsReservas.CheckIn.dataGridView1_CellContentClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+            <summary>
+            Handles the CellContentClick event of the dataGridView1 control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Forms.DataGridViewCellEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsReservas.CheckIn.btnSalir_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnSalir control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsReservas.CheckIn.btnImprimirListadoReservas_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnImprimirListadoReservas control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:SGHv1._0.FormsReservas.CheckIn.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FormsReservas.CheckIn.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsReservas.CheckIn.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.CambiarIdioma">
+            <summary>
+            Form para cambiar el idioma
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+            <seealso cref="T:SGH.BE.Observer.IObserver" />
+        </member>
+        <member name="M:SGHv1._0.CambiarIdioma.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SGHv1._0.CambiarIdioma"/> class.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.CambiarIdioma.FrmCambiarIdioma_Load(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Load event of the FrmCambiarIdioma control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.CambiarIdioma.btnEspanol_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnEspanol control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.CambiarIdioma.btnIngles_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnIngles control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.CambiarIdioma.Actualizar">
+            <summary>
+            Actualiza this instance.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.CambiarIdioma.CambiarIdiomaUsandoObserver">
+            <summary>
+            Cambia idioma usando observer.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.CambiarIdioma.btnAplicar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnAplicar control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.CambiarIdioma.cmbIdiomas_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the SelectedIndexChanged event of the cmbIdiomas control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.CambiarIdioma.btnSalir_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnSalir control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:SGHv1._0.CambiarIdioma.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.CambiarIdioma.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SGHv1._0.CambiarIdioma.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.FormsServicios.FrmCargarServicio">
+            <summary>
+            Formulario para la carga del Servicio
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+            <seealso cref="T:SGH.BE.Observer.IObserver" />
+        </member>
+        <member name="M:SGHv1._0.FormsServicios.FrmCargarServicio.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SGHv1._0.FormsServicios.FrmCargarServicio"/> class.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FormsServicios.FrmCargarServicio.Actualizar">
+            <summary>
+            Actualiza this instance.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FormsServicios.FrmCargarServicio.CambiarIdiomaUsandoObserver">
+            <summary>
+            Cambiars the idioma usando observer.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FormsServicios.FrmCargarServicio.FrmCargarServicio_Load(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Load event of the FrmCargarServicio control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsServicios.FrmCargarServicio.LimpiarFormulario">
+            <summary>
+            Limpiar formulario.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FormsServicios.FrmCargarServicio.dgvServicios_CellContentClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+            <summary>
+            Handles the CellContentClick event of the dgvServicios control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Forms.DataGridViewCellEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsServicios.FrmCargarServicio.btnSalir_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnSalir control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsServicios.FrmCargarServicio.cmbTipoServicio_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the SelectedIndexChanged event of the cmbTipoServicio control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsServicios.FrmCargarServicio.btnCargarServicio_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnCargarServicio control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:SGHv1._0.FormsServicios.FrmCargarServicio.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FormsServicios.FrmCargarServicio.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsServicios.FrmCargarServicio.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:SGHv1._0.FormsServicios.FrmRoomService.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FormsServicios.FrmRoomService.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsServicios.FrmRoomService.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:SGHv1._0.FormsServicios.FrmServicioComplementario.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FormsServicios.FrmServicioComplementario.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SGHv1._0.FormsServicios.FrmServicioComplementario.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.FrmLogin">
+            <summary>
+            Form para el Login
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+        </member>
+        <member name="M:SGHv1._0.FrmLogin.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SGHv1._0.FrmLogin"/> class.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FrmLogin.BtnIngresar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the BtnIngresar control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmLogin.FrmLogin_Load(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Load event of the FrmLogin control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmLogin.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the button1 control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmLogin.sbtnSalir_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the sbtnSalir control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:SGHv1._0.FrmLogin.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FrmLogin.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmLogin.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.FrmMenuPrincipal">
+            <summary>
+            Formulario para el Menú Principal
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+            <seealso cref="T:SGH.BE.Observer.IObserver" />
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.Actualizar">
+            <summary>
+            Actualizars this instance.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.CambiarIdiomaUsandoObserver">
+            <summary>
+            Cambia idioma usando observer.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SGHv1._0.FrmMenuPrincipal"/> class.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.FrmMenuPrincipal_Load(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Load event of the FrmMenuPrincipal control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.CerraSesiónToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the CerraSesiónToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.backupRestoreToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the backupRestoreToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.bitácoraToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the bitácoraToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.multiIdiomaToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the multiIdiomaToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.verListadoBackupsToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the verListadoBackupsToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.registrarUsuarioToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the registrarUsuarioToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.borrarUsuarioToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the borrarUsuarioToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.modificarUsuarioToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the modificarUsuarioToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.consultarUsuariosToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the consultarUsuariosToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.asignarRolesUsuarioToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the asignarRolesUsuarioToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.registrarClienteToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the registrarClienteToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.borrarClienteToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the borrarClienteToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.modificarClienteToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the modificarClienteToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.consultarClienteToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the consultarClienteToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.CargarReservaToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the CargarReservaToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.toolStripTextBox1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the AsignarRolesTreeViewToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.aBMMultiIdiomaToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the aBMMultiIdiomaToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.administraciónHabitacionesToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the administraciónHabitacionesToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.checkInToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the checkInToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.gestiónDeCambiosToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the gestiónDeCambiosToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.gestiónDeRoomServiceToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the gestiónDeRoomServiceToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.gestiónDeComplementosToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the gestiónDeComplementosToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.cargarServicioToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the cargarServicioToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.verEstadoCuentasCorrientesToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the verEstadoCuentasCorrientesToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.gestiónDeLimpiezaHabitacionesToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the gestiónDeLimpiezaHabitacionesToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.verListadoVentasToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the verListadoVentasToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:SGHv1._0.FrmMenuPrincipal.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmMenuPrincipal.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.FrmModificarCliente">
+            <summary>
+            Formulario para modificar a un cliente
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+            <seealso cref="T:SGH.BE.Observer.IObserver" />
+        </member>
+        <member name="M:SGHv1._0.FrmModificarCliente.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SGHv1._0.FrmModificarCliente"/> class.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FrmModificarCliente.Actualizar">
+            <summary>
+            Actualizars this instance.
+            </summary>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:SGHv1._0.FrmModificarCliente.FrmModificarCliente_Load(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Load event of the FrmModificarCliente control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmModificarCliente.btnTraerCliente_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnTraerCliente control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmModificarCliente.btnModificar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnModificar control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:SGHv1._0.FrmModificarCliente.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FrmModificarCliente.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmModificarCliente.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.FrmRegistrarBaja">
+            <summary>
+            Formulario para dar de baja a un cliente
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+            <seealso cref="T:SGH.BE.Observer.IObserver" />
+        </member>
+        <member name="M:SGHv1._0.FrmRegistrarBaja.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SGHv1._0.FrmRegistrarBaja"/> class.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FrmRegistrarBaja.FrmRegistrarBaja_Load(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Load event of the FrmRegistrarBaja control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmRegistrarBaja.bntTraerCliente_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the bntTraerCliente control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmRegistrarBaja.Actualizar">
+            <summary>
+            Actualizars this instance.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FrmRegistrarBaja.CambiarIdiomaUsandoObserver">
+            <summary>
+            Cambiars the idioma usando observer.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FrmRegistrarBaja.btnBorrar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnBorrar control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmRegistrarBaja.btnSalir_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnSalir control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:SGHv1._0.FrmRegistrarBaja.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FrmRegistrarBaja.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmRegistrarBaja.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.FrmRegistrarCliente">
+            <summary>
+            Formulario para registrar a un cliente
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+            <seealso cref="T:SGH.BE.Observer.IObserver" />
+        </member>
+        <member name="M:SGHv1._0.FrmRegistrarCliente.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SGHv1._0.FrmRegistrarCliente"/> class.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FrmRegistrarCliente.FrmRegistrarCliente_Load(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Load event of the FrmRegistrarCliente control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmRegistrarCliente.IsValidEmail(System.String)">
+            <summary>
+            Determines whether [is valid email] [the specified string in].
+            </summary>
+            <param name="strIn">The string in.</param>
+            <returns>
+              <c>true</c> if [is valid email] [the specified string in]; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:SGHv1._0.FrmRegistrarCliente.Actualizar">
+            <summary>
+            Actualizars this instance.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FrmRegistrarCliente.CambiarIdiomaUsandoObserver">
+            <summary>
+            Cambiars the idioma usando observer.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FrmRegistrarCliente.btnAceptar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnAceptar control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmRegistrarCliente.btnSalir_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnSalir control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:SGHv1._0.FrmRegistrarCliente.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.FrmRegistrarCliente.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SGHv1._0.FrmRegistrarCliente.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.LimpiezaHabitaciones.GestionLimpiezaHabitaciones">
+            <summary>
+            Formulario para la Gestión de Limpieza. Se implementó Entity Framework
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+            <seealso cref="T:SGH.BE.Observer.IObserver" />
+        </member>
+        <member name="M:SGHv1._0.LimpiezaHabitaciones.GestionLimpiezaHabitaciones.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SGHv1._0.LimpiezaHabitaciones.GestionLimpiezaHabitaciones"/> class.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.LimpiezaHabitaciones.GestionLimpiezaHabitaciones.Actualizar">
+            <summary>
+            Actualizars this instance.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.LimpiezaHabitaciones.GestionLimpiezaHabitaciones.CambiarIdiomaUsandoObserver">
+            <summary>
+            Cambiars the idioma usando observer.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.LimpiezaHabitaciones.GestionLimpiezaHabitaciones.GestionLimpiezaHabitaciones_Load(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Load event of the GestionLimpiezaHabitaciones control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.LimpiezaHabitaciones.GestionLimpiezaHabitaciones.LimpiarFormulario">
+            <summary>
+            Limpiar formulario.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.LimpiezaHabitaciones.GestionLimpiezaHabitaciones.btnSalir_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnSalir control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.LimpiezaHabitaciones.GestionLimpiezaHabitaciones.btnAgregarHabitacion_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnAgregarHabitacion control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.LimpiezaHabitaciones.GestionLimpiezaHabitaciones.btnBorrarSeleccionada_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnBorrarSeleccionada control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:SGHv1._0.LimpiezaHabitaciones.GestionLimpiezaHabitaciones.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.LimpiezaHabitaciones.GestionLimpiezaHabitaciones.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SGHv1._0.LimpiezaHabitaciones.GestionLimpiezaHabitaciones.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.ListarClientes">
+            <summary>
+            Formulario para Listar Clientes
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+            <seealso cref="T:SGH.BE.Observer.IObserver" />
+        </member>
+        <member name="M:SGHv1._0.ListarClientes.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SGHv1._0.ListarClientes"/> class.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.ListarClientes.Actualizar">
+            <summary>
+            Actualizars this instance.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.ListarClientes.CambiarIdiomaUsandoObserver">
+            <summary>
+            Cambiars the idioma usando observer.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.ListarClientes.ListarClientes_Load(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Load event of the ListarClientes control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:SGHv1._0.ListarClientes.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.ListarClientes.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SGHv1._0.ListarClientes.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.Reportes.GananciasGeneradas">
+            <summary>
+            Formulario para mostrar las ganancias generadas
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+            <seealso cref="T:SGH.BE.Observer.IObserver" />
+        </member>
+        <member name="M:SGHv1._0.Reportes.GananciasGeneradas.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SGHv1._0.Reportes.GananciasGeneradas"/> class.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Reportes.GananciasGeneradas.Actualizar">
+            <summary>
+            Actualizars this instance.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Reportes.GananciasGeneradas.CambiarIdiomaUsandoObserver">
+            <summary>
+            Cambiars the idioma usando observer.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Reportes.GananciasGeneradas.GananciasGeneradas_Load(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Load event of the GananciasGeneradas control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Reportes.GananciasGeneradas.btnSalir_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnSalir control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Reportes.GananciasGeneradas.dateTimePicker2_CloseUp(System.Object,System.EventArgs)">
+            <summary>
+            Handles the CloseUp event of the dateTimePicker2 control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Reportes.GananciasGeneradas.traerCombos">
+            <summary>
+            Traer combos.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Reportes.GananciasGeneradas.btnGenerarPDF_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnGenerarPDF control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Reportes.GananciasGeneradas.FromListView(System.Windows.Forms.ListView)">
+            <summary>
+            Froms the ListView.
+            </summary>
+            <param name="lvw">The LVW.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGHv1._0.Reportes.GananciasGeneradas.btnAplicar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnAplicar control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:SGHv1._0.Reportes.GananciasGeneradas.limpiarCombos">
+            <summary>
+            Limpiar combos.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Reportes.GananciasGeneradas.btnLimpiar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the btnLimpiar control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:SGHv1._0.Reportes.GananciasGeneradas.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.Reportes.GananciasGeneradas.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SGHv1._0.Reportes.GananciasGeneradas.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.SGHDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.SGHDataSet.PalabraDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.SGHDataSet.PalabraRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.SGHDataSet.PalabraRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.SGHDataSetTableAdapters.PalabraTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.SGHDataSetTableAdapters.TableAdapterManager">
+             <summary>
+            TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.SGHDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SGHv1._0.SGHDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Update rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.SGHDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SGHv1._0.SGHDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Insert rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.SGHDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SGHv1._0.SGHDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Delete rows in bottom-up order.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.SGHDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.SGHDataSetTableAdapters.TableAdapterManager.UpdateAll(SGHv1._0.SGHDataSet)">
+             <summary>
+            Update all changes to the dataset.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.SGHDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+             <summary>
+            Update Order Option
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.SGHDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+             <summary>
+            Used to sort self-referenced table's rows
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.SGHDataSetPalabra">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.SGHDataSetPalabra.PalabraDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.SGHDataSetPalabra.PalabraRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.SGHDataSetPalabra.PalabraRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.SGHDataSetPalabraTableAdapters.PalabraTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.SGHDataSetPalabraTableAdapters.TableAdapterManager">
+             <summary>
+            TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.SGHDataSetPalabraTableAdapters.TableAdapterManager.UpdateUpdatedRows(SGHv1._0.SGHDataSetPalabra,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Update rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.SGHDataSetPalabraTableAdapters.TableAdapterManager.UpdateInsertedRows(SGHv1._0.SGHDataSetPalabra,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Insert rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.SGHDataSetPalabraTableAdapters.TableAdapterManager.UpdateDeletedRows(SGHv1._0.SGHDataSetPalabra,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Delete rows in bottom-up order.
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.SGHDataSetPalabraTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+            </summary>
+        </member>
+        <member name="M:SGHv1._0.SGHDataSetPalabraTableAdapters.TableAdapterManager.UpdateAll(SGHv1._0.SGHDataSetPalabra)">
+             <summary>
+            Update all changes to the dataset.
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.SGHDataSetPalabraTableAdapters.TableAdapterManager.UpdateOrderOption">
+             <summary>
+            Update Order Option
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.SGHDataSetPalabraTableAdapters.TableAdapterManager.SelfReferenceComparer">
+             <summary>
+            Used to sort self-referenced table's rows
+            </summary>
+        </member>
+        <member name="T:SGHv1._0.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources._1486071980_1_79325">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources._1486505264_food_fork_kitchen_knife_meanns_restaurant_81404">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources._1486505264_food_fork_kitchen_knife_meanns_restaurant_81404__1_">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.add_image">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.add_image1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.add_image2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.add_image3">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.add_image4">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.add_image5">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.add_image6">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.add_image7">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.add_image8">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.add_image9">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.addUser">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.apply">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.apply1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.apply2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.auditoria">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.bajaCliente">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.bitacora">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.borrarUsuario">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.calendar">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.check">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.check_in">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.clean">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.clean1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.clean2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.clean21">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.clean22">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.clean23">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.clean24">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.clean25">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.clean26">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.cleaning">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.cleaning_16813">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.clientes">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.clientes2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.clientes3">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.exit">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.exit1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.exit10">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.exit2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.exit3">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.exit4">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.exit5">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.exit6">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.exit7">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.exit8">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.exit9">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.idioma">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.modificarCliente">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.modify">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.modify1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.modify2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.modify3">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.modify4">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.modify5">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.modify6">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.modifyUser">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.pdf">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.pdf1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.refresh">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.remove">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.remove1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.remove10">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.remove2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.remove3">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.remove4">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.remove5">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.remove6">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.remove7">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.remove8">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.remove9">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.restore">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.room">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.sign_out_option_icon_icons_com_73413">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.sleep_umbrella_vacation_icon_icons_com_51082">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.sombrilla">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.SYSBlanco">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.SYSBlanco1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:SGHv1._0.Properties.Resources.sysresort">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+    </members>
+</doc>

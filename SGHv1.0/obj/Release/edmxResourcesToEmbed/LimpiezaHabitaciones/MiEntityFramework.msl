@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SGHModelStoreContainer" CdmEntityContainer="SGHEntities">
+    <EntitySetMapping Name="EmpleadoLimpieza">
+      <EntityTypeMapping TypeName="SGHModel.EmpleadoLimpieza">
+        <MappingFragment StoreEntitySet="EmpleadoLimpieza">
+          <ScalarProperty Name="idEmpleadoLimpieza" ColumnName="idEmpleadoLimpieza" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Dni" ColumnName="Dni" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PlanillaLimpieza">
+      <EntityTypeMapping TypeName="SGHModel.PlanillaLimpieza">
+        <MappingFragment StoreEntitySet="PlanillaLimpieza">
+          <ScalarProperty Name="EstaAsignada" ColumnName="EstaAsignada" />
+          <ScalarProperty Name="FechaCarga" ColumnName="FechaCarga" />
+          <ScalarProperty Name="IdPlanillaLimpieza" ColumnName="IdPlanillaLimpieza" />
+          <ScalarProperty Name="IdEmpleadoLimpieza" ColumnName="IdEmpleadoLimpieza" />
+          <ScalarProperty Name="IdHabitacion" ColumnName="IdHabitacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Habitacion">
+      <EntityTypeMapping TypeName="SGHModel.Habitacion">
+        <MappingFragment StoreEntitySet="Habitacion">
+          <ScalarProperty Name="EstadoHabitacion" ColumnName="EstadoHabitacion" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="CodCategoriaHabitacion" ColumnName="CodCategoriaHabitacion" />
+          <ScalarProperty Name="CodTipoHabitacion" ColumnName="CodTipoHabitacion" />
+          <ScalarProperty Name="Numero" ColumnName="Numero" />
+          <ScalarProperty Name="IdHabitacion" ColumnName="IdHabitacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VistaPlanillaLimpieza">
+      <EntityTypeMapping TypeName="SGHModel.VistaPlanillaLimpieza">
+        <MappingFragment StoreEntitySet="VistaPlanillaLimpieza">
+          <ScalarProperty Name="FechaCarga" ColumnName="FechaCarga" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Numero" ColumnName="Numero" />
+          <ScalarProperty Name="IdPlanillaLimpieza" ColumnName="IdPlanillaLimpieza" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HabitacionesLimpieza">
+      <EntityTypeMapping TypeName="SGHModel.HabitacionesLimpieza">
+        <MappingFragment StoreEntitySet="HabitacionesLimpieza">
+          <ScalarProperty Name="EstadoHabitacion" ColumnName="EstadoHabitacion" />
+          <ScalarProperty Name="Numero" ColumnName="Numero" />
+          <ScalarProperty Name="IdHabitacion" ColumnName="IdHabitacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SGHModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="EmpleadoLimpieza">
+    <Key>
+      <PropertyRef Name="idEmpleadoLimpieza" />
+    </Key>
+    <Property Name="idEmpleadoLimpieza" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Dni" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="PlanillaLimpieza">
+    <Key>
+      <PropertyRef Name="IdPlanillaLimpieza" />
+    </Key>
+    <Property Name="IdPlanillaLimpieza" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdEmpleadoLimpieza" Type="Int32" />
+    <Property Name="IdHabitacion" Type="Int32" />
+    <Property Name="Observaciones" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="SGHEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="EmpleadoLimpieza" EntityType="Self.EmpleadoLimpieza" />
+    <EntitySet Name="PlanillaLimpieza" EntityType="Self.PlanillaLimpieza" />
+  </EntityContainer>
+</Schema>

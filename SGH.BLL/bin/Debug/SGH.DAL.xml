@@ -1,0 +1,513 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SGH.DAL</name>
+    </assembly>
+    <members>
+        <member name="T:SGH.DAL.DALCategoriaHabitacion">
+            <summary>
+            Mapper perteneciente a la categoría de la habitación
+            </summary>
+        </member>
+        <member name="M:SGH.DAL.DALCategoriaHabitacion.RegistrarCategoriaHabitacion(SGH.BE.CategoriaHabitacion)">
+            <summary>
+            Registra  categoria habitacion.
+            </summary>
+            <param name="nuevaCategoriaHabitacion">The nueva categoria habitacion.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.DAL.DALCategoriaHabitacion.TraerTodosLasCategoriaHabitacion">
+            <summary>
+            Traers the todos las categoria habitacion.
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.DAL.DALCategoriaHabitacion.ModificarCategoriaHabitacion(SGH.BE.CategoriaHabitacion,System.String)">
+            <summary>
+            Modifica categoria habitacion.
+            </summary>
+            <param name="unaCategoriaHabitacionModificada">The una categoria habitacion modificada.</param>
+            <param name="CodCategoriaHab">The cod categoria hab.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.DAL.DALCategoriaHabitacion.BorrarCategoriaHabitacion(System.String)">
+            <summary>
+            Borra categoria habitacion.
+            </summary>
+            <param name="CodCategoriaHabitacion">The cod categoria habitacion.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.DAL.DALCategoriaHabitacion.TraerCategoriaHab(System.String)">
+            <summary>
+            Trae categoria habitación
+            </summary>
+            <param name="catHab">The cat hab.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="T:SGH.DAL.DALCliente">
+            <summary>
+            Mapper correspondiente a Cliente
+            </summary>
+        </member>
+        <member name="M:SGH.DAL.DALCliente.RegistrarCliente(SGH.BE.Cliente,SGH.BE.CompositePermisos.Usuario)">
+            <summary>
+            Registra cliente.
+            </summary>
+            <param name="nuevoCliente">The nuevo cliente.</param>
+            <param name="usuarioSesion">The usuario sesion.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.DAL.DALCliente.TraerTodosLosClientes">
+            <summary>
+            Trae the todos los clientes.
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.DAL.DALCliente.TraerTodosLosClientesApellido">
+            <summary>
+            Trae todos los clientes apellido.
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.DAL.DALCliente.ModificarClientes(SGH.BE.Cliente,System.String,SGH.BE.CompositePermisos.Usuario)">
+            <summary>
+            Modifica  clientes.
+            </summary>
+            <param name="cliente">The cliente.</param>
+            <param name="dni">The dni.</param>
+            <param name="usuarioSesion">The usuario sesion.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.DAL.DALCliente.BorrarClientes(System.String,SGH.BE.CompositePermisos.Usuario)">
+            <summary>
+            Borra clientes.
+            </summary>
+            <param name="dni">The dni.</param>
+            <param name="usuarioSesion">The usuario sesion.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.DAL.DALCliente.TraerClientes(System.String)">
+            <summary>
+            Trae clientes.
+            </summary>
+            <param name="dni">The dni.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.DAL.DALCliente.TraerClientePorApellido(System.String)">
+            <summary>
+            Trae cliente por apellido.
+            </summary>
+            <param name="unApellido">The un apellido.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="T:SGH.DAL.DALConsumo">
+            <summary>
+            Mapper correspondiente a Consumo
+            </summary>
+        </member>
+        <member name="M:SGH.DAL.DALConsumo.CargarConsumo(SGH.BE.Consumo)">
+            <summary>
+            Carga consumo.
+            </summary>
+            <param name="unConsumo">The un consumo.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.DAL.DALConsumo.ListarConsumosPorHabitacion(System.String)">
+            <summary>
+            Listaconsumos por habitacion.
+            </summary>
+            <param name="numero">The numero.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.DAL.DALConsumo.CerrarConsumos(SGH.BE.Cuenta)">
+            <summary>
+            Cierra consumos.
+            </summary>
+            <param name="cuenta">The cuenta.</param>
+            <returns></returns>
+        </member>
+        <member name="T:SGH.DAL.DALCuenta">
+            <summary>
+            Mapper correspondiente a Cuenta
+            </summary>
+        </member>
+        <member name="M:SGH.DAL.DALCuenta.CrearCuenta(SGH.BE.Reserva,SGH.BE.Cuenta)">
+            <summary>
+            Crea cuenta.
+            </summary>
+            <param name="unaReserva">The una reserva.</param>
+            <param name="cuenta">The cuenta.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.DAL.DALCuenta.ObtenerCuenta(SGH.BE.Reserva)">
+            <summary>
+            Obtiene la cuenta.
+            </summary>
+            <param name="unaReserva">The una reserva.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.DAL.DALCuenta.ObtenerCuentaFinal(System.String,System.String)">
+            <summary>
+            Obtiene cuenta final.
+            </summary>
+            <param name="apellido">The apellido.</param>
+            <param name="numeroHab">The numero hab.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.DAL.DALCuenta.CargarConsumoCuenta(SGH.BE.Cuenta)">
+            <summary>
+            Carga consumo cuenta.
+            </summary>
+            <param name="cuenta">The cuenta.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.DAL.DALCuenta.CerrarCuenta(System.Int32)">
+            <summary>
+            Cierra la cuenta.
+            </summary>
+            <param name="idCuenta">The identifier cuenta.</param>
+            <returns></returns>
+        </member>
+        <member name="T:SGH.DAL.DALHabitacion">
+            <summary>
+            Mapper perteneciente a Habitación
+            </summary>
+        </member>
+        <member name="M:SGH.DAL.DALHabitacion.RegistrarHabitacion(SGH.BE.Habitacion)">
+            <summary>
+            Registra habitacion.
+            </summary>
+            <param name="nuevaHabitacion">The nueva habitacion.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.DAL.DALHabitacion.TraerTodasLasHabitaciones">
+            <summary>
+            Trae todas las habitaciones.
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.DAL.DALHabitacion.TraerTodasLasHabitacionesDesocupadas">
+            <summary>
+            Trae todas las habitaciones desocupadas.
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.DAL.DALHabitacion.TraerTodosLosTiposHabitacion">
+            <summary>
+            Trae todos los tipos habitacion.
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.DAL.DALHabitacion.ModificarHabitacion(SGH.BE.Habitacion)">
+            <summary>
+            Modifica habitacion.
+            </summary>
+            <param name="unaHabitacionModificada">The una habitacion modificada.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.DAL.DALHabitacion.CambiarEstadoHabitacion(System.String,SGH.BE.Habitacion)">
+            <summary>
+            Cambia estado habitacion.
+            </summary>
+            <param name="numeroHab">The numero hab.</param>
+            <param name="unaHabitacionModificada">The una habitacion modificada.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.DAL.DALHabitacion.LiberarHabitacion(System.Int32)">
+            <summary>
+            Libera habitacion.
+            </summary>
+            <param name="idHabitacion">The identifier habitacion.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.DAL.DALHabitacion.BorrarHabitacion(System.Int32)">
+            <summary>
+            Borra habitacion.
+            </summary>
+            <param name="idHab">The identifier hab.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.DAL.DALHabitacion.ObtenerIDHabitacion(System.String)">
+            <summary>
+            Obtiene el id de habitacion.
+            </summary>
+            <param name="numeroHab">The numero hab.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.DAL.DALHabitacion.ComprobarOcupacionHabitacion(System.DateTime,System.String,System.Guid)">
+            <summary>
+            Comprueba ocupacion habitacion.
+            </summary>
+            <param name="fechaDesde">The fecha desde.</param>
+            <param name="numeroHab">The numero hab.</param>
+            <param name="idCliente">The identifier cliente.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.DAL.DALHabitacion.ComprobarOcupacionHabitacionModificar(System.DateTime,System.String,System.Guid)">
+            <summary>
+            Comprueba ocupacion habitacion modificar.
+            </summary>
+            <param name="fechaDesde">The fecha desde.</param>
+            <param name="numeroHab">The numero hab.</param>
+            <param name="idCliente">The identifier cliente.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="T:SGH.DAL.DALReserva">
+            <summary>
+            Mapper perteneciente a Reserva
+            </summary>
+        </member>
+        <member name="M:SGH.DAL.DALReserva.RegistrarReserva(SGH.BE.Reserva)">
+            <summary>
+            Registra reserva.
+            </summary>
+            <param name="nuevaReserva">The nueva reserva.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.DAL.DALReserva.TraerTodasLasReservas">
+            <summary>
+            Trae todas las reservas.
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.DAL.DALReserva.TraerTodosLosReportesReservas">
+            <summary>
+            Trae todos los reportes reservas.
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.DAL.DALReserva.TraerTodosLosReportesReservas(SGH.BE.TipoHabitacion,SGH.BE.CategoriaHabitacion,System.DateTime,System.DateTime)">
+            <summary>
+            Trae todos los reportes reservas.
+            </summary>
+            <param name="tipoHabitacion">The tipo habitacion.</param>
+            <param name="categoriaHabitacion">The categoria habitacion.</param>
+            <param name="desde">The desde.</param>
+            <param name="hasta">The hasta.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.DAL.DALReserva.TraerTodosLosReportesReservas(SGH.BE.TipoHabitacion)">
+            <summary>
+            Trae todos los reportes reservas.
+            </summary>
+            <param name="tipoHabitacion">The tipo habitacion.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.DAL.DALReserva.TraerTodosLosReportesReservas(SGH.BE.CategoriaHabitacion)">
+            <summary>
+            Trae todos los reportes reservas.
+            </summary>
+            <param name="categoriaHabitacion">The categoria habitacion.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.DAL.DALReserva.TraerTodosLosReportesReservas(System.DateTime,System.DateTime)">
+            <summary>
+            Trae todos los reportes reservas.
+            </summary>
+            <param name="desde">The desde.</param>
+            <param name="hasta">The hasta.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.DAL.DALReserva.BuscarReservaPorHabitacion(System.String)">
+            <summary>
+            Busca reserva por habitacion.
+            </summary>
+            <param name="numero">The numero.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.DAL.DALReserva.ModificarReserva(System.Int32,SGH.BE.Reserva)">
+            <summary>
+            Modifica reserva.
+            </summary>
+            <param name="idReserva">The identifier reserva.</param>
+            <param name="reservaAModificar">The reserva a modificar.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.DAL.DALReserva.CambiarEstadoReserva(SGH.BE.Cuenta)">
+            <summary>
+            Cambia estado reserva.
+            </summary>
+            <param name="cuenta">The cuenta.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.DAL.DALReserva.RealizarCheckIn(System.Int32,SGH.BE.Reserva)">
+            <summary>
+            Realiza check in.
+            </summary>
+            <param name="idReserva">The identifier reserva.</param>
+            <param name="reservaAModificar">The reserva a modificar.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.DAL.DALReserva.BorrarReserva(System.Int32)">
+            <summary>
+            Borra reserva.
+            </summary>
+            <param name="idReserva">The identifier reserva.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.DAL.DALReserva.ObtenerReserva(System.Int32)">
+            <summary>
+            Obtene reserva.
+            </summary>
+            <param name="idReserva">The identifier reserva.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="T:SGH.DAL.DALServicios">
+            <summary>
+            Mapper de Servicios
+            </summary>
+        </member>
+        <member name="M:SGH.DAL.DALServicios.TraerTodosLosRoomServices">
+            <summary>
+            Trae todos los room services.
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.DAL.DALServicios.TraerTiposServicios">
+            <summary>
+            Trae tipos servicios.
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.DAL.DALServicios.TraerServicioSeleccionado(System.String)">
+            <summary>
+            Trae servicio seleccionado.
+            </summary>
+            <param name="nombre">The nombre.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.DAL.DALServicios.TraerTodosLosServiciosComplementarios">
+            <summary>
+            Trae todos los servicios complementarios.
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.DAL.DALServicios.AltaRoomService(SGH.BE.RoomService)">
+            <summary>
+            Alta room service.
+            </summary>
+            <param name="roomService">The room service.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.DAL.DALServicios.AltaServicioComplementario(SGH.BE.ServicioComplementario)">
+            <summary>
+            Alta servicio complementario.
+            </summary>
+            <param name="servicioComplementario">The servicio complementario.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.DAL.DALServicios.ModificarRoomService(SGH.BE.RoomService)">
+            <summary>
+            Modifica room service.
+            </summary>
+            <param name="roomService">The room service.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.DAL.DALServicios.ModificarServicioComplementario(SGH.BE.ServicioComplementario)">
+            <summary>
+            Modifica servicio complementario.
+            </summary>
+            <param name="servicioComplementario">The servicio complementario.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.DAL.DALServicios.BorrarRoomService(System.Int32)">
+            <summary>
+            Borra room service.
+            </summary>
+            <param name="idRS">The identifier rs.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.DAL.DALServicios.BorrarServicioComplementario(System.Int32)">
+            <summary>
+            Borra servicio complementario.
+            </summary>
+            <param name="idSC">The identifier sc.</param>
+            <returns></returns>
+        </member>
+        <member name="T:SGH.DAL.DALTipoHabitacion">
+            <summary>
+            Mapper correspondiente al Tipo de Habitación
+            </summary>
+        </member>
+        <member name="M:SGH.DAL.DALTipoHabitacion.RegistrarTipoHabitacion(SGH.BE.TipoHabitacion)">
+            <summary>
+            Registra tipo habitacion.
+            </summary>
+            <param name="nuevoTipoHabitacion">The nuevo tipo habitacion.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.DAL.DALTipoHabitacion.TraerTodosLosTipoHabitacion">
+            <summary>
+            Trae todos los tipo habitacion.
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:SGH.DAL.DALTipoHabitacion.ModificarTipoHabitacion(SGH.BE.TipoHabitacion,System.String)">
+            <summary>
+            Modifica tipo habitacion.
+            </summary>
+            <param name="unTipoHabitacionModificado">The un tipo habitacion modificado.</param>
+            <param name="CodTipoHab">The cod tipo hab.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.DAL.DALTipoHabitacion.BorrarTipoHabitacion(System.String)">
+            <summary>
+            Borra tipo habitacion.
+            </summary>
+            <param name="CodTipoHabitacion">The cod tipo habitacion.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SGH.DAL.DALTipoHabitacion.TraerTipoHab(System.String)">
+            <summary>
+            Trae tipo habitación
+            </summary>
+            <param name="TipoHab">The tipo hab.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="T:SGH.DAL.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:SGH.DAL.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:SGH.DAL.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

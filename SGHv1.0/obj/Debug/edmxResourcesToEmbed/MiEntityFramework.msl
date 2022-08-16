@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SGHModelStoreContainer" CdmEntityContainer="SGHEntities">
+    <EntitySetMapping Name="EmpleadoLimpieza">
+      <EntityTypeMapping TypeName="SGHModel.EmpleadoLimpieza">
+        <MappingFragment StoreEntitySet="EmpleadoLimpieza">
+          <ScalarProperty Name="idEmpleadoLimpieza" ColumnName="idEmpleadoLimpieza" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Dni" ColumnName="Dni" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PlanillaLimpieza">
+      <EntityTypeMapping TypeName="SGHModel.PlanillaLimpieza">
+        <MappingFragment StoreEntitySet="PlanillaLimpieza">
+          <ScalarProperty Name="IdPlanillaLimpieza" ColumnName="IdPlanillaLimpieza" />
+          <ScalarProperty Name="IdEmpleadoLimpieza" ColumnName="IdEmpleadoLimpieza" />
+          <ScalarProperty Name="IdHabitacion" ColumnName="IdHabitacion" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
